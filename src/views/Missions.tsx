@@ -23,6 +23,9 @@ export default function MissionBar() {
       {m.kind === 'assent' && <Btn tone="grey" onClick={() => nav.go('documents', 'assent-7-11')}>Open the assent forms</Btn>}
       {m.kind === 'leaflet' && <Btn tone="grey" onClick={() => nav.go('leaflet')}>Open the leaflet</Btn>}
       {m.kind === 'usertest' && <span className="flex gap-2"><Btn tone="grey" onClick={() => nav.go('usertest')}>Open the user test</Btn><Btn tone="grey" onClick={() => nav.go('leaflet')}>Open the leaflet</Btn></span>}
+      {m.kind === 'translation' && <Btn tone="grey" onClick={() => nav.go('translations')}>Open the Hindi translation</Btn>}
+      {m.kind === 'amendment' && <span className="flex gap-2"><Btn tone="grey" onClick={() => nav.go('versions')}>Open Versions and ethics</Btn><Btn tone="grey" onClick={() => nav.go('documents')}>Open the consent form</Btn></span>}
+      {m.kind === 'econsent' && <Btn tone="grey" onClick={() => nav.go('econsent')}>Open eConsent</Btn>}
       {m.kind === 'lay' && <Btn tone="grey" onClick={() => nav.go('lay')}>Open the lay summary</Btn>}
       {m.kind === 'numbers' && <div className="space-y-2">{PL9_ITEMS.map((it) => { const v = r.answers[`num:${it.id}`] ?? '', iss = v ? numberChecks(v) : []; return <div key={it.id} className="rounded border border-lab-line/60 p-2 text-sm"><p><b>{it.id}.</b> <span className="text-lab-text-muted">{it.source}</span></p><p className="text-xs text-lab-text-muted">Hint: {it.hint}</p>
         <textarea aria-label={`Rewrite of ${it.id}`} className="w-full min-h-14 rounded-md border border-lab-line bg-lab-panel-strong p-2 text-sm mt-1" value={v} onChange={(e) => act((y) => { y.mission!.answers[`num:${it.id}`] = e.target.value })} />

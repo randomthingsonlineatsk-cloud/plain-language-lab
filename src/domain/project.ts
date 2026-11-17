@@ -9,6 +9,7 @@ import RESULTS from './results.json'
 import { readReportingEvent, laySummarySections } from '../shared/laysummary'
 import { LEAFLET_EXAMPLES } from './leaflet'
 import { EU_QUESTIONS } from './usertest'
+import { blankVersions } from './versions'
 
 export const APP_URL = 'https://randomthingsonlineatsk-cloud.github.io/plain-language-lab/'
 export const FORMAT = 'plain-language-lab-project'
@@ -29,6 +30,7 @@ export function newProject(name: string, facts: StudyFacts, kind: Project['kind'
   return { id: `PL-${rid()}`, name, kind, userId: l.userId, classId: l.classId, createdUtc: t, updatedUtc: t, studyId: facts.id, facts: structuredClone(facts),
     docs: { consent: blankDoc(), representative: blankDoc(), 'assent-7-11': blankDoc(), 'assent-12-17': blankDoc() },
     regions: regionsOf(facts), targets: { ...TARGETS }, india: { newChemicalEntity: facts.newChemicalEntity, hivOrLeprosy: facts.hivOrLeprosy, vulnerable: false },
+    versions: blankVersions(facts.countries), translations: [],
     leaflet: defaultLeaflet(facts), lay: { edits: {}, results: exampleResults(facts.id), source: (RESULTS as Record<string, unknown>)[facts.id] ? 'TLF Programming Lab worked example' : '' }, schema: 1 }
 }
 /** Ostrevia's EU leaflet goes with VERDANT-1 (the same product); other studies start without one. */
@@ -58,8 +60,11 @@ export function readFile(text: string): Project {
   if (j.format === 'protocol-builder-project' && j.project) {
     const pb = j.project as ProtocolProjectLike & { name?: string }
     if (!pb.versions?.length) throw new Error('The Protocol Builder file has no protocol version.')
-    const f = studyFacts(pb)
-    return newProject(`${f.acronym || f.protocolId || 'Study'}: patient documents (from the Protocol Builder)`, f)
+    const f = studyFacts(pb), p = newProject(`${f.acronym || f.protocolId || 'Study'}: patient documents (from the Protocol Builder)`, f)
+    // An amended protocol: keep the previous version's facts, so the consent changes can be compared.
+    const last = pb.versions[pb.versions.length - 1] as { number?: string; amendment?: { safetyRights?: string; reasons?: string[]; summary?: string } }
+    if (pb.versions.length > 1) p.amendment = { number: last.number ?? String(pb.versions.length), reason: last.amendment?.summary ?? (last.amendment?.reasons ?? []).join(', '), safetyRights: last.amendment?.safetyRights === 'Yes', prevFacts: studyFacts(pb, pb.versions.length - 2) }
+    return p
   }
   throw new Error('This is neither a Plain Language Lab project file nor a Protocol Builder project file.')
 }
@@ -69,5 +74,6 @@ export function upgrade(p: Project): Project {
   p.userId ||= l.userId; p.classId ??= l.classId; p.targets = { ...TARGETS, ...p.targets }
   if (p.leaflet === undefined) p.leaflet = defaultLeaflet(p.facts)
   p.lay ??= { edits: {}, results: exampleResults(p.facts.id), source: '' }
+  p.versions ??= blankVersions(p.facts.countries); p.translations ??= []
   return p
 }

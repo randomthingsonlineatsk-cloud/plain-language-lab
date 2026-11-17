@@ -1,6 +1,7 @@
 // Overview of the study, the regions whose rules apply, India's recording decision and the export.
 import { useStore } from '../state'
-import { sectionsOf, projectFile, docChecks, textOf } from '../domain/project'
+import { sectionsOf, projectFile, docChecks, textOf, laySections } from '../domain/project'
+import { sectionsWith } from '../domain/leaflet'
 import { DOC_TYPES } from '../domain/types'
 import { REGION_NAMES, indiaRecording, type Region } from '../shared/consent'
 import { analyze } from '../domain/analyze'
@@ -65,6 +66,12 @@ export function Export() {
       <Panel title="Documents" sub="Word for editing; HTML to read or print. Gaps to write are highlighted.">
         <table className="text-sm w-full"><tbody>{DOC_TYPES.map((d) => { const secs = sectionsOf(p!, d.id), title = `${f.acronym || f.protocolId}: ${d.name.toLowerCase()} (version ${p!.docs[d.id].version})`
           return <tr key={d.id} className="border-t border-lab-line/60"><td className="py-2">{d.name}</td><td className="text-right space-x-1"><Btn tone="grey" onClick={async () => { const { sectionsDocxBlob } = await import('../domain/docx'); download(`${base}_${d.id}.docx`, await sectionsDocxBlob(title, secs, footer)) }}>Word</Btn><Btn tone="grey" onClick={async () => { const { sectionsHtml } = await import('../domain/docx'); download(`${base}_${d.id}.html`, sectionsHtml(title, secs, footer), 'text/html') }}>HTML</Btn></td></tr> })}</tbody></table>
+      </Panel>
+      <Panel title="Leaflet and lay summary" sub="The rewritten leaflet (with the Labelling Workbench’s headings) and the lay summary.">
+        <table className="text-sm w-full"><tbody>{[
+          ...(p!.leaflet ? [{ id: 'leaflet', name: `${p!.leaflet.file.product.brand}: ${p!.leaflet.file.title}`, secs: sectionsWith(p!.leaflet.file, p!.leaflet.edits).filter((x) => x.text.trim()).map((x) => ({ id: x.num, heading: x.heading, text: x.text })) }] : []),
+          { id: 'lay-summary', name: 'Summary of results for laypersons', secs: laySections(p!) },
+        ].map((d) => <tr key={d.id} className="border-t border-lab-line/60"><td className="py-2">{d.name}</td><td className="text-right space-x-1"><Btn tone="grey" onClick={async () => { const { sectionsDocxBlob } = await import('../domain/docx'); download(`${base}_${d.id}.docx`, await sectionsDocxBlob(d.name, d.secs, footer)) }}>Word</Btn><Btn tone="grey" onClick={async () => { const { sectionsHtml } = await import('../domain/docx'); download(`${base}_${d.id}.html`, sectionsHtml(d.name, d.secs, footer), 'text/html') }}>HTML</Btn></td></tr>)}</tbody></table>
       </Panel>
       <Panel title="Project file" sub="Everything in this project as one JSON file, to keep or to open in another browser.">
         <Btn onClick={() => download(`${base}_plain-language-lab.json`, projectFile(p!))}>Download the project file</Btn>

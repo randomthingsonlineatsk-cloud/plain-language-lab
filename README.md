@@ -7,7 +7,7 @@ texts that people can read, checked by rules in the browser.
 
 Training only. Every study, product, sponsor and participant is fictional. Not a validated system.
 
-## What it does (Phase 1)
+## What it does (Phases 1 and 2)
 
 1. **Studies from the Protocol Builder.** Start from VERDANT-1 (HRP-301, lumiravostat for
    chronic hand eczema) or GLV-12-301, or open a Protocol Builder project file. The consent
@@ -42,14 +42,28 @@ Training only. Every study, product, sponsor and participant is fictional. Not a
    elements; write the key information; write assent for two age groups; decide when consent is
    recorded in India.
 
+10. **Risk and numbers**: absolute against relative risk, number needed to treat, natural
+    frequencies, the EU frequency terms and icon arrays (SVG); checks for relative risk alone,
+    percentages without “in 100”, percentages of percentages, mixed denominators, frequency words
+    that do not match, and p-values in lay text.
+11. **Patient leaflet** from the Labelling Workbench (its “Leaflet for the Plain Language Lab”
+    export, or Ostrevia’s EU package leaflet and US Medication Guide): rewrite each section with its
+    reading level, keep every key safety message, check the frequency words.
+12. **Simulated user test**: a questionnaire on the key messages, a pilot and rounds of 10 simulated
+    participants of mixed literacy and numeracy; an answer passes at 90% found and 90% of those
+    understood (16 of 20 over two rounds on the same text). Results repeat for the same text.
+13. **Lay summary of results** (EU CTR Annex V, ten elements) drafted from the study and the TLF
+    Programming Lab’s analysis results (its ARS JSON download): natural frequencies, differences in
+    words, honest uncertainty, no p-values; checks PL-L01 to PL-L10.
+14. **Missions PL6 to PL9**: bring the Ostrevia leaflet to its reading level; user-test it and pass;
+    write the VERDANT-1 lay summary from its results; fix the numbers in a misleading summary.
+
 Export each document to Word or HTML, and the whole project as a JSON file. Works offline after
 the first visit; press `?` for keyboard shortcuts.
 
 ## Coming next
 
-Phase 2: risk tools and icon arrays, the lay summary of results from the TLF Programming Lab,
-the package leaflet and Medication Guide shared with the Labelling Workbench, and simulated user
-testing. Phase 3: translation and back-translation in eight Indian languages and the EU languages,
+Phase 3: translation and back-translation in eight Indian languages and the EU languages,
 ethics committee versions, eConsent and the CDM Console link. Phase 4: writing skills drills, the
 certificate, the classroom and the pharmolecule journey step. The writing-skills drills cover the
 topic areas used in medical writing courses such as the AMWA Essential Skills programme; this app
@@ -68,10 +82,12 @@ React, TypeScript, Vite and Tailwind; IndexedDB storage; no server and no AI ser
 
 ## Shared code
 
-`src/shared/consent.ts` (the consent generator, element checklists and India recording rule) and
-`src/shared/jargon.ts` are identical in the Protocol Builder; a test in each repo fails if they
-differ. The worked-example studies in `src/domain/studies.json` are written by the Protocol
-Builder's tests.
+`src/shared/consent.ts` (the consent generator, element checklists and India recording rule),
+`src/shared/laysummary.ts` and `src/shared/jargon.ts` are identical in the Protocol Builder; a test
+in each repo fails if they differ. The worked examples are written by the other apps' tests:
+`studies.json` by the Protocol Builder, `leaflets.json` by the Labelling Workbench, and
+`results.json` (the reference analyses of both studies, run in R through webR) by the TLF
+Programming Lab.
 
 ## Licence
 

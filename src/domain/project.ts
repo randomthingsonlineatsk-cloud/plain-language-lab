@@ -5,6 +5,10 @@ import STUDIES from './studies.json'
 import { consentSections, representativeSections, assentSections, studyFacts, regionsOf, checkElements, type ProtocolProjectLike, type Region } from '../shared/consent'
 import type { DocSection, DocState, DocType, Project, StudyFacts } from './types'
 import { TARGETS } from './analyze'
+import RESULTS from './results.json'
+import { readReportingEvent, laySummarySections } from '../shared/laysummary'
+import { LEAFLET_EXAMPLES } from './leaflet'
+import { EU_QUESTIONS } from './usertest'
 
 export const APP_URL = 'https://randomthingsonlineatsk-cloud.github.io/plain-language-lab/'
 export const FORMAT = 'plain-language-lab-project'
@@ -24,8 +28,16 @@ export function newProject(name: string, facts: StudyFacts, kind: Project['kind'
   const l = learner(), t = now()
   return { id: `PL-${rid()}`, name, kind, userId: l.userId, classId: l.classId, createdUtc: t, updatedUtc: t, studyId: facts.id, facts: structuredClone(facts),
     docs: { consent: blankDoc(), representative: blankDoc(), 'assent-7-11': blankDoc(), 'assent-12-17': blankDoc() },
-    regions: regionsOf(facts), targets: { ...TARGETS }, india: { newChemicalEntity: facts.newChemicalEntity, hivOrLeprosy: facts.hivOrLeprosy, vulnerable: false }, schema: 1 }
+    regions: regionsOf(facts), targets: { ...TARGETS }, india: { newChemicalEntity: facts.newChemicalEntity, hivOrLeprosy: facts.hivOrLeprosy, vulnerable: false },
+    leaflet: defaultLeaflet(facts), lay: { edits: {}, results: exampleResults(facts.id), source: (RESULTS as Record<string, unknown>)[facts.id] ? 'TLF Programming Lab worked example' : '' }, schema: 1 }
 }
+/** Ostrevia's EU leaflet goes with VERDANT-1 (the same product); other studies start without one. */
+export function defaultLeaflet(f: StudyFacts): Project['leaflet'] {
+  if (!/lumiravostat|ostrevia/i.test(f.product)) return null
+  return { key: 'ostrevia-pl-eu', file: structuredClone(LEAFLET_EXAMPLES['ostrevia-pl-eu']), edits: {}, questions: structuredClone(EU_QUESTIONS), rounds: [] }
+}
+export function exampleResults(id: string) { const re = (RESULTS as Record<string, unknown>)[id]; return re ? readReportingEvent(re as Parameters<typeof readReportingEvent>[0]) : null }
+export const laySections = (p: Project) => laySummarySections(p.facts, p.lay.results ?? undefined, p.lay.edits)
 export const exampleProject = (id: string) => newProject(`${EXAMPLES[id].acronym || id} (${id}): patient documents`, EXAMPLES[id])
 
 /** The sections of one document: generated from the study, then the writer's edits. */
@@ -55,5 +67,7 @@ export function upgrade(p: Project): Project {
   const l = learner()
   for (const k of ['consent', 'representative', 'assent-7-11', 'assent-12-17'] as DocType[]) p.docs[k] ??= blankDoc()
   p.userId ||= l.userId; p.classId ??= l.classId; p.targets = { ...TARGETS, ...p.targets }
+  if (p.leaflet === undefined) p.leaflet = defaultLeaflet(p.facts)
+  p.lay ??= { edits: {}, results: exampleResults(p.facts.id), source: '' }
   return p
 }

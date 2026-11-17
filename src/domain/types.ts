@@ -1,4 +1,7 @@
 import type { StudyFacts, DocSection, Region } from '../shared/consent'
+import type { LayResults } from '../shared/laysummary'
+import type { LeafletFile } from './leaflet'
+import type { Question, Round } from './usertest'
 export type { StudyFacts, DocSection, Region }
 
 export type DocType = 'consent' | 'representative' | 'assent-7-11' | 'assent-12-17'
@@ -19,6 +22,8 @@ export interface Project {
   regions: Region[]
   targets: Record<string, number>
   india: { newChemicalEntity: boolean; hivOrLeprosy: boolean; vulnerable: boolean }
+  leaflet: { key: string; file: LeafletFile; edits: Record<string, string>; questions: Question[]; rounds: Round[] } | null
+  lay: { edits: Record<string, string>; results: LayResults | null; source: string }
   mission?: MissionRun
   schema: 1
 }

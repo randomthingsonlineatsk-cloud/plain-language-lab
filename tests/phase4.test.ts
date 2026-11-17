@@ -9,7 +9,7 @@ import { submissionPayload, verifySubmission } from '../src/domain/classroom'
 import { handoff } from '../src/domain/handoff'
 import type { Progress } from '../src/domain/types'
 import { finish } from './journey.fixture'
-import pbText from '../../cdm-query-console/tests/fixtures/HRP-301.protocol-builder.json?raw'
+import pbText from './fixtures/HRP-301.protocol-builder.json?raw'
 
 const HUB = '../pharmolecule/tests/fixtures'
 const save = (name: string, x: unknown) => { if (existsSync(HUB)) writeFileSync(`${HUB}/${name}`, JSON.stringify(x, null, 2) + '\n') }

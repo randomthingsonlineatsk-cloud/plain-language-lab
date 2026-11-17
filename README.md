@@ -7,7 +7,7 @@ texts that people can read, checked by rules in the browser.
 
 Training only. Every study, product, sponsor and participant is fictional. Not a validated system.
 
-## What it does (Phases 1 to 3)
+## What it does
 
 1. **Studies from the Protocol Builder.** Start from VERDANT-1 (HRP-301, lumiravostat for
    chronic hand eczema) or GLV-12-301, or open a Protocol Builder project file. The consent
@@ -79,12 +79,27 @@ the first visit; press `?` for keyboard shortcuts.
 18. **Missions PL10 to PL12**: reconcile a Hindi back-translation with six planted errors; handle
     amendment 1 (re-consent, new version, approvals, sites); set up an eConsent flow that passes.
 
-## Coming next
+19. **Writing skills drills**: seven sets of eight short items with instant feedback (grammar,
+    punctuation, word choice, sentence structure, numbers and units, abbreviations, statistics for
+    writers). They cover the topic areas used in medical writing courses such as the AMWA Essential
+    Skills programme; the items are written for this app, which is not affiliated with AMWA.
+20. **Certificate**: pass the core missions (PL1, PL2, PL3, PL6 and PL8), every Learn quiz (2 of 3
+    or better) and every writing-skills set (6 of 8 or better). Distinction: every mission passed,
+    three or more at expert level. The verification code (PL-) and the passport record are checked
+    on the pharmolecule [Regulatory Skills Passport](https://randomthingsonlineatsk-cloud.github.io/pharmolecule/passport.html).
+21. **Classroom** (optional, the only feature that talks to a server): instructors create a class
+    and assign missions; students join with a code and send their mission projects; instructors
+    re-score each one in their own browser, comment, and see a leaderboard. It uses the shared
+    classroom server in the eCTD Dossier Builder repository, routes under `/pl/v1`.
+22. **Lifecycle journey**: the Export page’s hand-off is checked twice on the pharmolecule
+    [Ostrevia journey](https://randomthingsonlineatsk-cloud.github.io/pharmolecule/journey.html):
+    the VERDANT-1 consent form drafted from your own Protocol Builder protocol, and the lay summary
+    written from your own TLF Programming Lab results.
 
-Phase 4: writing skills drills, the
-certificate, the classroom and the pharmolecule journey step. The writing-skills drills cover the
-topic areas used in medical writing courses such as the AMWA Essential Skills programme; this app
-is not affiliated with AMWA.
+## Later
+
+When the EU pharmaceutical reform’s new leaflet rules and the FDA’s Patient Medication
+Information rule are final, their formats will be added (notes on both are in Learn).
 
 ## Run it
 

@@ -1,4 +1,5 @@
 // Overview of the study, the regions whose rules apply, India's recording decision and the export.
+import { handoff } from '../domain/handoff'
 import { useStore } from '../state'
 import { sectionsOf, projectFile, docChecks, textOf, laySections } from '../domain/project'
 import { sectionsWith } from '../domain/leaflet'
@@ -72,6 +73,9 @@ export function Export() {
           ...(p!.leaflet ? [{ id: 'leaflet', name: `${p!.leaflet.file.product.brand}: ${p!.leaflet.file.title}`, secs: sectionsWith(p!.leaflet.file, p!.leaflet.edits).filter((x) => x.text.trim()).map((x) => ({ id: x.num, heading: x.heading, text: x.text })) }] : []),
           { id: 'lay-summary', name: 'Summary of results for laypersons', secs: laySections(p!) },
         ].map((d) => <tr key={d.id} className="border-t border-lab-line/60"><td className="py-2">{d.name}</td><td className="text-right space-x-1"><Btn tone="grey" onClick={async () => { const { sectionsDocxBlob } = await import('../domain/docx'); download(`${base}_${d.id}.docx`, await sectionsDocxBlob(d.name, d.secs, footer)) }}>Word</Btn><Btn tone="grey" onClick={async () => { const { sectionsHtml } = await import('../domain/docx'); download(`${base}_${d.id}.html`, sectionsHtml(d.name, d.secs, footer), 'text/html') }}>HTML</Btn></td></tr>)}</tbody></table>
+      </Panel>
+      <Panel title="Hand-off for the Ostrevia lifecycle journey" sub="The pharmolecule hub’s journey reads this file twice: after the protocol (the VERDANT-1 consent form) and after the analysis (the lay summary of results). It holds the check results, not the documents.">
+        <Btn onClick={() => download(`${base}_plain-language-lab-handoff.json`, JSON.stringify(handoff(p!), null, 2))}>Download the hand-off</Btn>
       </Panel>
       <Panel title="Project file" sub="Everything in this project as one JSON file, to keep or to open in another browser.">
         <Btn onClick={() => download(`${base}_plain-language-lab.json`, projectFile(p!))}>Download the project file</Btn>

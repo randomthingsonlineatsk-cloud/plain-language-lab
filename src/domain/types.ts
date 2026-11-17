@@ -32,8 +32,10 @@ export interface Project {
   econsent?: EConsent
   amendment?: { number: string; reason: string; safetyRights: boolean; prevFacts: StudyFacts; decision?: 'Re-consent' | 'Inform' | 'None' }
   mission?: MissionRun
+  /** Where the study came from: a worked example, the learner's own Protocol Builder file, or a mission. */
+  origin?: 'example' | 'protocol-builder' | 'mission'
   schema: 1
 }
 
 /** Learning progress: drills and quizzes, one record per browser user. */
-export interface Progress { id: 'me'; userId: string; classId: string; drills: Record<string, { text: string; score: number; utc: string }>; quizzes: Record<string, { score: number; of: number; utc: string }>; missions: Record<string, { score: number; utc: string }> }
+export interface Progress { id: 'me'; userId: string; classId: string; drills: Record<string, { text: string; score: number; utc: string }>; quizzes: Record<string, { score: number; of: number; utc: string }>; missions: Record<string, { score: number; utc: string }>; skills?: Record<string, { score: number; of: number; utc: string }>; name?: string }

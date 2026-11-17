@@ -12,16 +12,18 @@ import { Overview, India, Export } from './views/Study'
 import { Leaflet, UserTest } from './views/Leaflet'
 import Lay from './views/Lay'
 import Risk from './views/Risk'
+import Skills from './views/Skills'
+import Classroom from './views/Classroom'
 import Versions from './views/Versions'
 import Translations from './views/Translations'
 import EConsent from './views/EConsent'
 import MissionBar from './views/Missions'
 import type { DocType } from './domain/types'
 
-type Page = 'home' | 'learn' | 'drills' | 'analyzer' | 'risk' | 'dictionary'
-const PAGES: { id: Page; label: string; key: string }[] = [{ id: 'home', label: 'Studies and missions', key: 'h' }, { id: 'learn', label: 'Learn', key: 'l' }, { id: 'drills', label: 'Rewrite drills', key: 'r' }, { id: 'analyzer', label: 'Readability', key: 'a' }, { id: 'risk', label: 'Risk and numbers', key: 'n' }, { id: 'dictionary', label: 'Jargon dictionary', key: 'j' }]
+type Page = 'home' | 'learn' | 'drills' | 'analyzer' | 'risk' | 'dictionary' | 'skills' | 'classroom'
+const PAGES: { id: Page; label: string; key: string }[] = [{ id: 'home', label: 'Studies and missions', key: 'h' }, { id: 'learn', label: 'Learn', key: 'l' }, { id: 'drills', label: 'Rewrite drills', key: 'r' }, { id: 'analyzer', label: 'Readability', key: 'a' }, { id: 'risk', label: 'Risk and numbers', key: 'n' }, { id: 'dictionary', label: 'Jargon dictionary', key: 'j' }, { id: 'skills', label: 'Writing skills', key: 'w' }, { id: 'classroom', label: 'Classroom', key: 'k' }]
 const VIEWS: { id: View; label: string; key: string }[] = [{ id: 'overview', label: 'Overview', key: 'o' }, { id: 'documents', label: 'Consent and assent', key: 'c' }, { id: 'india', label: 'India', key: 'i' }, { id: 'leaflet', label: 'Leaflet', key: 'p' }, { id: 'usertest', label: 'User test', key: 'u' }, { id: 'lay', label: 'Lay summary', key: 's' }, { id: 'translations', label: 'Translations', key: 't' }, { id: 'versions', label: 'Versions and ethics', key: 'v' }, { id: 'econsent', label: 'eConsent', key: 'e' }, { id: 'export', label: 'Export', key: 'x' }]
-const SHORTCUTS: [string, string][] = [['?', 'Show these shortcuts'], ['g then h / l / r / a / n / j', 'Studies and missions, Learn, Rewrite drills, Readability, Risk and numbers, Jargon dictionary'], ['g then o / c / i / p / u / s / x', 'In a study: Overview, Consent and assent, India, Leaflet, User test, Lay summary, Translations (t), Versions and ethics (v), eConsent (e), Export'], ['Ctrl or ⌘ + S', 'Work is saved as you type; this confirms it'], ['Esc', 'Close a dialog']]
+const SHORTCUTS: [string, string][] = [['?', 'Show these shortcuts'], ['g then h / l / r / a / n / j / w / k', 'Studies and missions, Learn, Rewrite drills, Readability, Risk and numbers, Jargon dictionary, Writing skills, Classroom'], ['g then o / c / i / p / u / s / x', 'In a study: Overview, Consent and assent, India, Leaflet, User test, Lay summary, Translations (t), Versions and ethics (v), eConsent (e), Export'], ['Ctrl or ⌘ + S', 'Work is saved as you type; this confirms it'], ['Esc', 'Close a dialog']]
 const typing = (t: EventTarget | null) => t instanceof HTMLElement && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName))
 
 function Shell() {
@@ -65,14 +67,14 @@ function Shell() {
         {error && <div role="alert" className="max-w-7xl mx-auto w-full px-4 pt-3"><div className="rounded border border-lab-red/60 bg-lab-red-soft px-3 py-2 text-sm text-lab-red flex justify-between gap-2"><span>{error}</span><button onClick={() => setError('')} aria-label="Dismiss">✕</button></div></div>}
         <main className="max-w-7xl mx-auto w-full px-4 py-4 flex-1">
           {p ? <><MissionBar />{nav.view === 'overview' ? <Overview /> : nav.view === 'documents' ? <Documents key={nav.arg ?? 'consent'} initial={(nav.arg as DocType) ?? 'consent'} /> : nav.view === 'india' ? <India /> : nav.view === 'leaflet' ? <Leaflet /> : nav.view === 'usertest' ? <UserTest /> : nav.view === 'lay' ? <Lay /> : nav.view === 'versions' ? <Versions /> : nav.view === 'translations' ? <Translations /> : nav.view === 'econsent' ? <EConsent /> : <Export />}</>
-            : page === 'learn' ? <Learn /> : page === 'drills' ? <Drills /> : page === 'analyzer' ? <Analyzer /> : page === 'risk' ? <Risk /> : page === 'dictionary' ? <Dictionary /> : <Home onOpen={() => go(p ? 'overview' : 'overview')} />}
+            : page === 'learn' ? <Learn /> : page === 'drills' ? <Drills /> : page === 'analyzer' ? <Analyzer /> : page === 'risk' ? <Risk /> : page === 'dictionary' ? <Dictionary /> : page === 'skills' ? <Skills /> : page === 'classroom' ? <Classroom /> : <Home onOpen={() => go(p ? 'overview' : 'overview')} />}
         </main>
         {toast && <div role="status" className="fixed bottom-4 right-4 z-50 rounded border border-lab-line bg-lab-panel px-3 py-2 text-sm shadow">{toast}</div>}
         {keys && <Modal title="Keyboard shortcuts" onClose={() => setKeys(false)}><table className="text-sm w-full"><tbody>{SHORTCUTS.map(([k, w]) => <tr key={k} className="border-t border-lab-line/60"><td className="py-1 pr-4 font-mono whitespace-nowrap">{k}</td><td>{w}</td></tr>)}</tbody></table></Modal>}
         <footer className="border-t border-lab-line text-[11px] text-lab-text-muted">
           <div className="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between gap-2">
             <span>Built by Khan Gulrez Shagufa Fazal Ahmed · Apache-2.0</span>
-            <span>Training only. Fictional studies, products and sponsors; not a validated system. Saved in this browser{saved ? ` · saved ${saved}` : ''}. {online ? 'Works offline after the first visit.' : 'Offline: everything still works.'}</span>
+            <span>Training only. Fictional studies, products and sponsors; not a validated system. Saved in this browser{saved ? ` · saved ${saved}` : ''}. {online ? 'Works offline after the first visit.' : 'Offline: everything except the Classroom still works.'}</span>
           </div>
         </footer>
       </div>

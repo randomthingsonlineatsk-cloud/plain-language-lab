@@ -1,0 +1,324 @@
+{
+  "HRP-301": {
+    "id": "HRP-301",
+    "acronym": "VERDANT-1",
+    "shortTitle": "Lumiravostat in moderate to severe chronic hand eczema",
+    "fullTitle": "VERDANT-1: a randomised, double-blind, placebo-controlled phase 3 study of lumiravostat (Ostrevia) 10 mg and 25 mg once daily for 16 weeks in adults with moderate to severe chronic hand eczema",
+    "protocolId": "HRP-301",
+    "version": "1.0",
+    "sponsor": "Halcyon Ridge Pharmaceuticals (fictional), 1 Harbour Row, Dublin, Ireland",
+    "product": "lumiravostat (Ostrevia)",
+    "condition": "Moderate to severe chronic hand eczema inadequately controlled with topical corticosteroids",
+    "phase": "Phase 3",
+    "registry": {
+      "nct": "NCT99930101 (fictional)",
+      "euct": "2026-500000-00-00 (fictional)",
+      "ctri": "CTRI/2026/00/000000 (fictional)",
+      "ind": "000000 (fictional)"
+    },
+    "countries": [
+      "Canada",
+      "Germany",
+      "India",
+      "the United States"
+    ],
+    "sites": "About 60 sites",
+    "ageMin": 18,
+    "ageMax": 75,
+    "participants": 324,
+    "treatmentWeeks": 16,
+    "followUpWeeks": 4,
+    "participationWeeks": 25,
+    "arms": [
+      {
+        "name": "Lumiravostat 25 mg",
+        "placebo": false,
+        "ratio": 1
+      },
+      {
+        "name": "Lumiravostat 10 mg",
+        "placebo": false,
+        "ratio": 1
+      },
+      {
+        "name": "Placebo",
+        "placebo": true,
+        "ratio": 1
+      }
+    ],
+    "blinded": true,
+    "dosing": "oral, once daily",
+    "visits": [
+      {
+        "name": "Screening",
+        "onSite": true
+      },
+      {
+        "name": "Day 1 (randomisation)",
+        "onSite": true
+      },
+      {
+        "name": "Week 2",
+        "onSite": true
+      },
+      {
+        "name": "Week 4",
+        "onSite": true
+      },
+      {
+        "name": "Week 8",
+        "onSite": true
+      },
+      {
+        "name": "Week 12",
+        "onSite": true
+      },
+      {
+        "name": "Week 16 (end of treatment)",
+        "onSite": true
+      },
+      {
+        "name": "Week 20 follow-up",
+        "onSite": true
+      }
+    ],
+    "procedures": [
+      {
+        "name": "Informed consent",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Demographics",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Eligibility criteria",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Medical history, including hand eczema history",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Vital signs (blood pressure, pulse) and weight",
+        "visits": 5,
+        "bloodMl": 0
+      },
+      {
+        "name": "Hepatitis B screening (HBsAg, anti-HBc; HBV DNA if anti-HBc positive)",
+        "visits": 1,
+        "bloodMl": 5
+      },
+      {
+        "name": "Central safety laboratory (haematology, chemistry including ALT and AST)",
+        "visits": 7,
+        "bloodMl": 10
+      },
+      {
+        "name": "Pregnancy test (participants of childbearing potential)",
+        "visits": 6,
+        "bloodMl": 0
+      },
+      {
+        "name": "IGA-CHE (Investigator Global Assessment, chronic hand eczema)",
+        "visits": 7,
+        "bloodMl": 0
+      },
+      {
+        "name": "HECSI (Hand Eczema Severity Index)",
+        "visits": 7,
+        "bloodMl": 0
+      },
+      {
+        "name": "Worst itch over the last 24 hours (0 to 10 numeric rating scale)",
+        "visits": 7,
+        "bloodMl": 0
+      },
+      {
+        "name": "Dispense trial intervention; tablet count and adherence",
+        "visits": 5,
+        "bloodMl": 0
+      },
+      {
+        "name": "End of trial status",
+        "visits": 1,
+        "bloodMl": 0
+      }
+    ],
+    "aim": "To compare the efficacy of lumiravostat 25 mg and 10 mg with placebo in achieving clear or almost clear hands",
+    "background": "Lumiravostat is a reversible inhibitor of the STRK1 kinase (a fictional target), which mediates cytokine signalling in skin inflammation. This trial asks whether Lumiravostat is more effective than placebo in chronic hand eczema, and how safe it is, over 16 weeks.",
+    "risks": "Identified risks of lumiravostat from the phase 2 trial HRP-201 and the nonclinical programme: upper respiratory tract infections, raised ALT, and a potential risk of hepatitis B virus reactivation (a class effect of kinase inhibitors that modulate immunity). Mitigations: exclusion of HBsAg-positive participants and of those with detectable HBV DNA (EX01); HBV DNA monitoring every 4 weeks in anti-HBc-positive participants; liver tests at every visit (P07); discontinuation for ALT above 5 × ULN (7.1). Embryo-fetal toxicity was seen in animals: contraception and pregnancy tests (5.4, 8.4.5).",
+    "knownReactions": [
+      "upper respiratory tract infection (very common (12%))",
+      "alanine aminotransferase increased (common (3%))"
+    ],
+    "reproductiveRisk": true,
+    "stopRules": "The trial intervention is stopped permanently for: ALT above 5 × ULN; ALT above 3 × ULN with total bilirubin above 2 × ULN; HBV DNA above the lower limit of quantification; pregnancy; a serious adverse reaction; or if the investigator judges it in the participant’s interest. Participants who stop the intervention stay in the trial and attend every visit to Week 20, so their data can be used.",
+    "withdrawal": "A participant may withdraw at any time. Data collected until withdrawal are kept. The site asks, but cannot require, a final safety visit. Participants who withdraw are not replaced.",
+    "privacy": "Participants are identified by number only. Personal data are processed under the applicable data protection laws; a breach is reported to the sponsor within 24 hours and handled under its procedure. In the EU the GDPR (Regulation (EU) 2016/679) applies, and in India the Digital Personal Data Protection Act 2023. Data are pseudonymised: records leave the site coded by participant number, and the key stays at the site. After a breach the sponsor contains it, assesses the risk to participants and notifies the authorities and participants as the law requires.",
+    "newChemicalEntity": true,
+    "hivOrLeprosy": false
+  },
+  "GLV-12-301": {
+    "id": "GLV-12-301",
+    "acronym": "GLYDE-3",
+    "shortTitle": "Glyvantra (GLV-12) in type 2 diabetes",
+    "fullTitle": "A randomised, double-blind, placebo-controlled, parallel-group phase 3 study of the efficacy and safety of Glyvantra (GLV-12) 5 mg and 10 mg once daily in adults with type 2 diabetes inadequately controlled on metformin",
+    "protocolId": "GLV-12-301",
+    "version": "1.0",
+    "sponsor": "Glyvant Pharmaceuticals (fictional), 40 Canal Street, Boston, MA, United States",
+    "product": "Glyvantra (GLV-12)",
+    "condition": "Type 2 diabetes mellitus inadequately controlled on metformin",
+    "phase": "Phase 3",
+    "registry": {
+      "nct": "NCT99912301 (fictional)",
+      "ind": "000001 (fictional)"
+    },
+    "countries": [
+      "United States",
+      "Japan",
+      "Germany",
+      "India",
+      "Brazil"
+    ],
+    "sites": "5 sites",
+    "ageMin": 18,
+    "ageMax": 75,
+    "participants": 90,
+    "treatmentWeeks": 26,
+    "followUpWeeks": 4,
+    "participationWeeks": 33,
+    "arms": [
+      {
+        "name": "GLV-12 5 mg",
+        "placebo": false,
+        "ratio": 1
+      },
+      {
+        "name": "GLV-12 10 mg",
+        "placebo": false,
+        "ratio": 1
+      },
+      {
+        "name": "Placebo",
+        "placebo": true,
+        "ratio": 1
+      }
+    ],
+    "blinded": true,
+    "dosing": "oral, once daily",
+    "visits": [
+      {
+        "name": "Screening",
+        "onSite": true
+      },
+      {
+        "name": "Day 1",
+        "onSite": true
+      },
+      {
+        "name": "Week 2",
+        "onSite": true
+      },
+      {
+        "name": "Week 4",
+        "onSite": true
+      },
+      {
+        "name": "Week 8",
+        "onSite": true
+      },
+      {
+        "name": "Week 12",
+        "onSite": true
+      },
+      {
+        "name": "Week 16",
+        "onSite": true
+      },
+      {
+        "name": "Week 20",
+        "onSite": true
+      },
+      {
+        "name": "Week 26",
+        "onSite": true
+      },
+      {
+        "name": "Follow-up",
+        "onSite": true
+      }
+    ],
+    "procedures": [
+      {
+        "name": "Informed consent",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Demographics",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Eligibility criteria",
+        "visits": 2,
+        "bloodMl": 0
+      },
+      {
+        "name": "Medical history, including diabetes history",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "Vital signs (sitting blood pressure, pulse) and weight",
+        "visits": 10,
+        "bloodMl": 0
+      },
+      {
+        "name": "Height and oral temperature",
+        "visits": 1,
+        "bloodMl": 0
+      },
+      {
+        "name": "HbA1c (central laboratory)",
+        "visits": 4,
+        "bloodMl": 2
+      },
+      {
+        "name": "Central safety chemistry and fasting glucose (ALT, AST, creatinine, total cholesterol, glucose)",
+        "visits": 4,
+        "bloodMl": 6
+      },
+      {
+        "name": "Diabetes education session",
+        "visits": 2,
+        "bloodMl": 0
+      },
+      {
+        "name": "Dispense trial intervention; tablet count and adherence",
+        "visits": 5,
+        "bloodMl": 0
+      },
+      {
+        "name": "End of trial status",
+        "visits": 1,
+        "bloodMl": 0
+      }
+    ],
+    "aim": "To show that GLV-12 lowers HbA1c more than placebo after 26 weeks in adults with type 2 diabetes inadequately controlled on metformin",
+    "background": "Glyvantra (GLV-12) is an once-daily oral glucose transport modulator (a fictional class). This trial asks whether Glyvantra (GLV-12) is more effective than placebo in type 2 diabetes inadequately controlled on metformin, and how safe it is, over 26 weeks.",
+    "risks": "Identified and potential risks come from the nonclinical studies and earlier clinical trials summarised in the investigator's brochure. Each is mitigated by the eligibility criteria (section 5), the safety assessments in the schedule of activities (section 8.4) and the discontinuation rules (section 7.1).",
+    "knownReactions": [],
+    "reproductiveRisk": false,
+    "stopRules": "The trial intervention is stopped permanently for a confirmed fasting glucose above 15 mmol/L, an eGFR below 30 mL/min/1.73 m2, ALT above 3 × ULN with total bilirubin above 2 × ULN, pregnancy, or if the investigator judges it in the participant’s interest. Participants who stop stay in the trial and attend every visit.",
+    "withdrawal": "A participant may withdraw at any time. Data collected until withdrawal are kept. The site asks, but cannot require, a final safety visit.",
+    "privacy": "Participants are identified by number only. Personal data are processed under the applicable data protection laws; a breach is reported to the sponsor within 24 hours and handled under its procedure.",
+    "newChemicalEntity": true,
+    "hivOrLeprosy": false
+  }
+}

@@ -99,4 +99,28 @@ export const LESSONS: Lesson[] = [
       { q: '“Reduces the risk by 50%” from 2 in 1,000 to 1 in 1,000. What should you add?', options: ['The absolute numbers', 'The p-value', 'Nothing'], answer: 0, why: 'Relative risk without the absolute exaggerates the effect.' },
       { q: 'In an EU leaflet, “common” means…', options: ['Up to 1 in 10 people', 'More than 1 in 10', 'Up to 1 in 100'], answer: 0, why: 'Common is 1 in 100 to 1 in 10.' },
     ] },
+  { id: 'leaflet', title: 'Package leaflets, Medication Guides and user testing',
+    paras: [
+      'An EU package leaflet follows the QRD template: six numbered sections, from “What it is and what it is used for” to “Contents of the pack”, in words a patient uses. Directive 2001/83/EC (Articles 59(3) and 61(1)) requires that it reflects consultations with target patient groups: in practice a readability (user) test.',
+      'The usual method: a questionnaire of about 12 to 15 questions on the key safety and use messages, a pilot, then rounds of 10 people likely to use the medicine. An answer is satisfactory when at least 90% of participants find it and 90% of those understand it; leaflets are revised between rounds until every answer passes.',
+      'In the US, a Medication Guide (21 CFR 208) is required for some medicines with serious risks, with headings written as questions (“What is the most important information I should know about…?”). FDA proposed a one-page Patient Medication Information in 2023; it is not yet final. The EU reform agreed in 2025 to 2026 will let Member States allow electronic-only leaflets, with paper on request; it is not yet in force.',
+    ],
+    example: 'The Ostrevia leaflet’s pregnancy section says “It may harm your unborn baby” and gives the 4 weeks of contraception and 4 days without breast-feeding: a test question checks each.',
+    quiz: [
+      { q: 'What is the usual criterion for a user-tested answer?', options: ['90% find it and 90% of those understand it', '50% understand it', 'Every participant reads the whole leaflet'], answer: 0, why: 'The EU readability guidance uses 90% and 90% of those.' },
+      { q: 'Who should take part in a user test?', options: ['People likely to use the medicine', 'Pharmacists only', 'The writers'], answer: 0, why: 'The test checks the leaflet with its readers.' },
+      { q: 'Is FDA’s one-page Patient Medication Information required today?', options: ['No: it was proposed in 2023', 'Yes, for all medicines', 'Only for biologics'], answer: 0, why: 'It is a proposed rule; Medication Guides under Part 208 remain.' },
+    ] },
+  { id: 'lay', title: 'Lay summaries of results',
+    paras: [
+      'Under the EU Clinical Trials Regulation (Article 37(4) and Annex V), every trial posts a summary for laypersons within a year of its end, with ten elements: the trial, the sponsor, why it was done, who took part, the medicines, the side effects, the results, the sponsor’s comments, follow-up trials, and where to find more.',
+      'Good Lay Summary Practice (2021) and the EU recommendations (2017) ask for neutral, non-promotional words, results in natural frequencies, honest uncertainty, and the statement that one trial alone does not answer every question. P-values and “statistically significant” are left out; say in words whether the difference could be due to chance.',
+      'In the US, NIH released a draft policy in August 2026 to return plain-language summaries to participants in NIH-funded research.',
+    ],
+    example: 'In the training data of VERDANT-1, 5 of 16 people on 25 mg (about 31 in 100) and 3 of 15 on placebo (about 20 in 100) reached success: the difference could be due to chance, and the lay summary must say so.',
+    quiz: [
+      { q: 'Within what time is the EU lay summary due?', options: ['One year from the end of the trial', 'Five years', 'Before the trial starts'], answer: 0, why: 'Article 37(4) sets one year for the results summary and the lay summary.' },
+      { q: 'How should a difference whose confidence interval crosses zero be described?', options: ['It could be due to chance', 'The medicine works', 'The medicine is unsafe'], answer: 0, why: 'An interval including no difference means the result may be chance.' },
+      { q: 'Which belongs in a lay summary?', options: ['The statement that one trial alone does not answer every question', 'The p-value', 'Words like “breakthrough”'], answer: 0, why: 'Neutral and honest; no p-values or promotion.' },
+    ] },
 ]

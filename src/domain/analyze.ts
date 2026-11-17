@@ -83,4 +83,4 @@ export const ISO_PRINCIPLES = [
 
 // Default reading targets (US grade), changeable per class: a common ethics committee expectation,
 // not a legal rule.
-export const TARGETS: Record<string, number> = { consent: 8, representative: 8, leaflet: 8, lay: 8, 'assent-12-17': 6, 'assent-7-11': 4, drill: 8 }
+export const TARGETS: Record<string, number> = { consent: 8, 'lay-summary': 8, representative: 8, leaflet: 8, lay: 8, 'assent-12-17': 6, 'assent-7-11': 4, drill: 8 }

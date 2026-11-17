@@ -47,7 +47,7 @@
       }
     ],
     "blinded": true,
-    "dosing": "oral, once daily",
+    "dosing": "by mouth, once daily",
     "visits": [
       {
         "name": "Screening",
@@ -210,7 +210,7 @@
       }
     ],
     "blinded": true,
-    "dosing": "oral, once daily",
+    "dosing": "by mouth, once daily",
     "visits": [
       {
         "name": "Screening",

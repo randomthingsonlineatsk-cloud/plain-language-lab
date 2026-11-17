@@ -7,7 +7,7 @@ texts that people can read, checked by rules in the browser.
 
 Training only. Every study, product, sponsor and participant is fictional. Not a validated system.
 
-## What it does (Phases 1 and 2)
+## What it does (Phases 1 to 3)
 
 1. **Studies from the Protocol Builder.** Start from VERDANT-1 (HRP-301, lumiravostat for
    chronic hand eczema) or GLV-12-301, or open a Protocol Builder project file. The consent
@@ -61,10 +61,27 @@ Training only. Every study, product, sponsor and participant is fictional. Not a
 Export each document to Word or HTML, and the whole project as a JSON file. Works offline after
 the first visit; press `?` for keyboard shortcuts.
 
+15. **Translations**: the translator pastes each segment and its back-translation; the app checks
+    numbers (native digits included), English left untranslated and open reconciliation items, and
+    a translation goes stale when the English version moves on. Eight Indian languages (Hindi,
+    Marathi, Tamil, Telugu, Kannada, Bengali, Gujarati, Malayalam), the EU languages and Canadian
+    French. No machine translation.
+16. **Versions and ethics**: issue versions with a summary, submit them to each ethics committee,
+    record decisions and which version each site uses. Flags catch use before approval, use of a
+    superseded version and stale translations. When a protocol amendment arrives (a Protocol
+    Builder file with two versions), the app shows the tracked changes and proposes re-consent,
+    inform or no action. The consent versions download feeds the CDM Console’s Twin page, where
+    the superseded-version check (IC-74 for HRP-301) follows the latest approved version.
+17. **eConsent mock-up**, after the FDA and OHRP Q&A on electronic informed consent (2016) and the
+    EU recommendation paper on decentralised elements (2022): identity check, screens with glossary
+    pop-ups, a comprehension quiz with teach-back, a question log, a signature with its meaning, a
+    copy for the participant and a downloadable audit trail.
+18. **Missions PL10 to PL12**: reconcile a Hindi back-translation with six planted errors; handle
+    amendment 1 (re-consent, new version, approvals, sites); set up an eConsent flow that passes.
+
 ## Coming next
 
-Phase 3: translation and back-translation in eight Indian languages and the EU languages,
-ethics committee versions, eConsent and the CDM Console link. Phase 4: writing skills drills, the
+Phase 4: writing skills drills, the
 certificate, the classroom and the pharmolecule journey step. The writing-skills drills cover the
 topic areas used in medical writing courses such as the AMWA Essential Skills programme; this app
 is not affiliated with AMWA.

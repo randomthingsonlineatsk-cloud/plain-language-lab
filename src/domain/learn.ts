@@ -123,4 +123,39 @@ export const LESSONS: Lesson[] = [
       { q: 'How should a difference whose confidence interval crosses zero be described?', options: ['It could be due to chance', 'The medicine works', 'The medicine is unsafe'], answer: 0, why: 'An interval including no difference means the result may be chance.' },
       { q: 'Which belongs in a lay summary?', options: ['The statement that one trial alone does not answer every question', 'The p-value', 'Words like “breakthrough”'], answer: 0, why: 'Neutral and honest; no p-values or promotion.' },
     ] },
+  { id: 'translation', title: 'Translation and back-translation',
+    paras: [
+      'Consent must be in a language the participant understands (CTR Article 29; NDCT Rules 2019; the ICMR National Ethical Guidelines). In India a multi-site trial may need Hindi, Marathi, Tamil, Telugu, Bengali, Gujarati, Kannada, Malayalam and more; in the EU, the language of each Member State concerned.',
+      'The usual workflow: a forward translation by a qualified translator; an independent back-translation into English by someone who has not seen the source; a reconciliation of every difference, deciding whether the translation or only the back-translation is wrong; a review; and a certificate. Each language version is linked to the source version it came from, so a change to the English triggers an update.',
+      'Back-translations differ in wording all the time; what matters is meaning. Look for numbers and doses, things left out (“without giving a reason”), things added (“completely safe”), changes in strength (“may” became “will”), and terms left in English. Native digits (६ in Devanagari) are numbers too.',
+    ],
+    example: 'In the Pune site’s Hindi form, “16 weeks” came back as “6 weeks”: the Hindi had ६ (6) instead of १६ (16).',
+    quiz: [
+      { q: 'Who should do the back-translation?', options: ['A second translator who has not seen the English source', 'The forward translator', 'The sponsor’s medical writer'], answer: 0, why: 'Independence is what makes the back-translation a check.' },
+      { q: 'The back-translation says “will harm” where the source says “may harm”. What kind of discrepancy is it?', options: ['A change in meaning or strength', 'No discrepancy: wording differs', 'A number error'], answer: 0, why: 'The certainty of the statement changed.' },
+      { q: 'The English form moves to version 2.0. What happens to the Hindi version 1.0?', options: ['It is updated from 2.0, and the changed sections back-translated', 'Nothing', 'It is withdrawn without replacement'], answer: 0, why: 'Each language version follows its source version.' },
+    ] },
+  { id: 'econsent', title: 'Electronic consent',
+    paras: [
+      'Electronic consent uses screens, video and quizzes instead of, or beside, paper. The FDA and OHRP questions and answers (2016) cover identity, understanding, signatures and copies; the EU recommendation paper on decentralised elements (2022) and ICH E6(R3) accept it where national law allows.',
+      'A good flow confirms who is consenting, shows the information in short screens with a glossary, checks understanding with questions on the key messages and goes back to the section when an answer is wrong (teach-back), lets the participant ask questions of the investigator, records a signature with its meaning and time, keeps an audit trail and gives a copy.',
+      'A quiz is not a test to pass: it finds what needs explaining again. The conversation with the investigator remains part of consent.',
+    ],
+    example: 'In the VERDANT-1 eConsent flow, a participant who answers that placebo is “no chance” is taken back to “What will happen if I take part?” before signing.',
+    quiz: [
+      { q: 'What should happen when a participant answers a comprehension question wrongly?', options: ['Show the section again and discuss it (teach-back)', 'Stop the consent', 'Record the wrong answer and continue'], answer: 0, why: 'The quiz finds what needs explaining again.' },
+      { q: 'Which belongs in the audit trail?', options: ['Each step with its time, including the signature', 'The participant’s password', 'Nothing: the signature is enough'], answer: 0, why: 'The record shows how consent was obtained.' },
+      { q: 'Must the participant receive a copy?', options: ['Yes', 'Only on request', 'No'], answer: 0, why: 'A copy of the signed form is given, in paper or electronic form.' },
+    ] },
+  { id: 'versions', title: 'Versions and ethics committee approval',
+    paras: [
+      'Every consent form has a version number and date. A changed form goes to the ethics committee (IRB in the US, the ethics committee as part of Part II in the EU, the institutional ethics committee in India) and is used only after approval. Sites record the version in use; participants sign the version approved on that date.',
+      'After an amendment that changes what participants are told, the new version is approved and current participants are re-consented on it. Translations follow the English, and the CDM team’s edit checks compare each participant’s form version with the approved ones.',
+    ],
+    example: 'In the CDM Console’s HRP-301 data, a participant recorded on a superseded version raises the consent version check (IC-04); the Plain Language Lab’s consent-version file tells the check which versions are approved.',
+    quiz: [
+      { q: 'When may a site use consent version 2.0?', options: ['After its ethics committee approves it', 'As soon as the sponsor issues it', 'After the first participant signs it'], answer: 0, why: 'Approval comes before use.' },
+      { q: 'A site started using a version before its approval date. What is it?', options: ['A protocol deviation to record', 'Normal practice', 'Nothing to note'], answer: 0, why: 'Using an unapproved form is a deviation.' },
+      { q: 'Why export the approved versions to the data management team?', options: ['So edit checks can catch participants on the wrong version', 'For publication', 'It is not needed'], answer: 0, why: 'The CDM checks compare the recorded version with approved ones.' },
+    ] },
 ]

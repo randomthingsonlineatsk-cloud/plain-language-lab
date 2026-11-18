@@ -32,6 +32,13 @@ export interface Project {
   econsent?: EConsent
   amendment?: { number: string; reason: string; safetyRights: boolean; prevFacts: StudyFacts; decision?: 'Re-consent' | 'Inform' | 'None' }
   mission?: MissionRun
+  enrolment?: { countryPct?: Record<string, number>; olderPct?: number } // from the Protocol Builder's enrolment plan
+  scorecards?: Record<string, { cdc: Record<string, import('./literacy').Rating>; pemat: Record<string, import('./literacy').Rating> }>
+  panel?: import('./panel').PanelReview
+  easyRead?: import('./easyread').EasyRead
+  glossary?: Record<string, import('./translation').GlossaryEntry[]>
+  pls?: import('./pls').PlsDraft
+  access?: import('./access').AccessPlan
   /** Where the study came from: a worked example, the learner's own Protocol Builder file, or a mission. */
   origin?: 'example' | 'protocol-builder' | 'mission'
   schema: 1

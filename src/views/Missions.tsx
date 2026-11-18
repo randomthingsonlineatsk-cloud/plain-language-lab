@@ -25,6 +25,12 @@ export default function MissionBar() {
       {m.kind === 'usertest' && <span className="flex gap-2"><Btn tone="grey" onClick={() => nav.go('usertest')}>Open the user test</Btn><Btn tone="grey" onClick={() => nav.go('leaflet')}>Open the leaflet</Btn></span>}
       {m.kind === 'translation' && <Btn tone="grey" onClick={() => nav.go('translations')}>Open the Hindi translation</Btn>}
       {m.kind === 'amendment' && <span className="flex gap-2"><Btn tone="grey" onClick={() => nav.go('versions')}>Open Versions and ethics</Btn><Btn tone="grey" onClick={() => nav.go('documents')}>Open the consent form</Btn></span>}
+      {m.kind === 'scorecard' && <Btn tone="grey" onClick={() => nav.go('literacy')}>Open Health literacy</Btn>}
+      {m.kind === 'panel' && <span className="flex gap-2"><Btn tone="grey" onClick={() => nav.go('panel')}>Open the patient panel</Btn><Btn tone="grey" onClick={() => nav.go('documents')}>Open the consent form</Btn></span>}
+      {m.kind === 'easyread' && <Btn tone="grey" onClick={() => nav.go('easyread')}>Open Easy Read and audio</Btn>}
+      {m.kind === 'glossary' && <Btn tone="grey" onClick={() => nav.go('translations')}>Open the translations</Btn>}
+      {m.kind === 'pls' && <Btn tone="grey" onClick={() => nav.go('pls')}>Open the publication summary</Btn>}
+      {m.kind === 'access' && <Btn tone="grey" onClick={() => nav.go('access')}>Open Language access</Btn>}
       {m.kind === 'econsent' && <Btn tone="grey" onClick={() => nav.go('econsent')}>Open eConsent</Btn>}
       {m.kind === 'lay' && <Btn tone="grey" onClick={() => nav.go('lay')}>Open the lay summary</Btn>}
       {m.kind === 'numbers' && <div className="space-y-2">{PL9_ITEMS.map((it) => { const v = r.answers[`num:${it.id}`] ?? '', iss = v ? numberChecks(v) : []; return <div key={it.id} className="rounded border border-lab-line/60 p-2 text-sm"><p><b>{it.id}.</b> <span className="text-lab-text-muted">{it.source}</span></p><p className="text-xs text-lab-text-muted">Hint: {it.hint}</p>

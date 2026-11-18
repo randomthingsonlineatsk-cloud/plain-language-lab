@@ -56,6 +56,17 @@ describe('versions and committees', () => {
     const dir = '../cdm-query-console/tests/fixtures'
     if (existsSync(dir)) writeFileSync(`${dir}/HRP-301.consent-versions.json`, JSON.stringify(f, null, 2) + '\n')
   })
+  test('the CDM Console mission M21: site approvals on different dates', () => {
+    const p = exampleProject('HRP-301')
+    issueVersion(p, 'consent', 'First version', '2025-12-01'); issueVersion(p, 'consent', 'Before first site opened', '2026-02-20'); issueVersion(p, 'consent', 'Amendment 1: hair thinning added to the risks', '2026-04-02')
+    for (const [c, v, d] of [['DE-EC', '2.0', '2026-03-25'], ['IN-IEC-PUNE', '2.0', '2026-04-01'], ['IN-IEC-MUM', '2.0', '2026-04-01'], ['US-IRB', '2.0', '2026-04-10'], ['IN-IEC-PUNE', '3.0', '2026-04-15'], ['CA-REB', '2.0', '2026-05-01']] as const) {
+      submit(p, c, [{ type: 'consent', language: 'en', version: v }], '', d); approve(p, { committee: c, type: 'consent', language: 'en', version: v, date: d, decision: 'approved' })
+    }
+    const f = cdmConsentFile(p); f.exportedUtc = '2026-06-30T09:00:00.000Z'
+    expect(f.versions.every((v) => v.country)).toBe(true)
+    const dir = '../cdm-query-console/src/domain/ost'
+    if (existsSync(dir)) writeFileSync(`${dir}/consent-m21.json`, JSON.stringify(f, null, 2) + '\n')
+  })
   test('re-consent decision and tracked changes', () => {
     const p = exampleProject('HRP-301'), next = structuredClone(p.facts); next.risks += ' Hair thinning was seen.'
     const r = reconsentDecision(consentSections(p.facts), consentSections(next))

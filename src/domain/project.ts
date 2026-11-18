@@ -62,6 +62,7 @@ export function readFile(text: string): Project {
     if (!pb.versions?.length) throw new Error('The Protocol Builder file has no protocol version.')
     const f = studyFacts(pb), p = newProject(`${f.acronym || f.protocolId || 'Study'}: patient documents (from the Protocol Builder)`, f)
     p.origin = 'protocol-builder'
+    const en = (j.project as { enrolment?: Project['enrolment'] }).enrolment; if (en) p.enrolment = { countryPct: en.countryPct, olderPct: en.olderPct }
     // An amended protocol: keep the previous version's facts, so the consent changes can be compared.
     const last = pb.versions[pb.versions.length - 1] as { number?: string; amendment?: { safetyRights?: string; reasons?: string[]; summary?: string } }
     if (pb.versions.length > 1) p.amendment = { number: last.number ?? String(pb.versions.length), reason: last.amendment?.summary ?? (last.amendment?.reasons ?? []).join(', '), safetyRights: last.amendment?.safetyRights === 'Yes', prevFacts: studyFacts(pb, pb.versions.length - 2) }

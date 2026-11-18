@@ -83,7 +83,7 @@ describe('missions', () => {
     expect(grade(p).passed).toBe(false)
   })
   test('missions and lessons are well formed', () => {
-    expect(MISSIONS.map((m) => m.id)).toEqual(['PL1', 'PL2', 'PL3', 'PL4', 'PL5', 'PL6', 'PL7', 'PL8', 'PL9', 'PL10', 'PL11', 'PL12'])
+    expect(MISSIONS.map((m) => m.id)).toEqual(['PL1', 'PL2', 'PL3', 'PL4', 'PL5', 'PL6', 'PL7', 'PL8', 'PL9', 'PL10', 'PL11', 'PL12', 'PL13', 'PL14', 'PL15', 'PL16', 'PL17', 'PL18', 'PL19'])
     for (const l of LESSONS) { expect(l.quiz.length).toBe(3); for (const q of l.quiz) expect(q.answer).toBeLessThan(q.options.length) }
   })
 })

@@ -7,7 +7,7 @@ import type { DocSection, DocType, Project } from './types'
 import { sectionsOf } from './project'
 
 export interface VersionRec { version: string; date: string; summary: string; sections: DocSection[] }
-export interface Committee { id: string; name: string; region: string; sites: string[] }
+export interface Committee { id: string; name: string; region: string; sites: string[]; country?: string }
 export interface Submission { id: string; committee: string; date: string; docs: { type: DocType; language: string; version: string }[]; note: string }
 export interface Approval { committee: string; type: DocType; language: string; version: string; date: string; decision: 'approved' | 'approved with conditions' | 'not approved' }
 export interface SiteUse { site: string; type: DocType; language: string; version: string; from: string }
@@ -16,11 +16,11 @@ export interface Versions { history: Record<DocType, VersionRec[]>; committees: 
 export function defaultCommittees(countries: string[]): Committee[] {
   const c: Committee[] = []
   for (const k of countries.map((x) => x.replace(/^the /i, ''))) {
-    if (/United States/.test(k)) c.push({ id: 'US-IRB', name: 'Central IRB (US sites)', region: 'US', sites: ['Site 101 Boston', 'Site 102 Denver'] })
-    else if (/Germany/.test(k)) c.push({ id: 'DE-EC', name: 'Ethics committee, Germany (CTR Part II)', region: 'EU', sites: ['Site 201 Hamburg'] })
-    else if (/India/.test(k)) c.push({ id: 'IN-IEC-PUNE', name: 'Institutional Ethics Committee, Pune site', region: 'IN', sites: ['Site 301 Pune'] }, { id: 'IN-IEC-MUM', name: 'Institutional Ethics Committee, Mumbai site', region: 'IN', sites: ['Site 302 Mumbai'] })
-    else if (/Canada/.test(k)) c.push({ id: 'CA-REB', name: 'Research Ethics Board, Canada', region: 'CA', sites: ['Site 401 Toronto'] })
-    else c.push({ id: `${k.slice(0, 2).toUpperCase()}-EC`, name: `Ethics committee, ${k}`, region: k, sites: [`Site in ${k}`] })
+    if (/United States/.test(k)) c.push({ id: 'US-IRB', name: 'Central IRB (US sites)', region: 'US', country: 'United States', sites: ['Site 101 Boston', 'Site 102 Denver'] })
+    else if (/Germany/.test(k)) c.push({ id: 'DE-EC', name: 'Ethics committee, Germany (CTR Part II)', region: 'EU', country: 'Germany', sites: ['Site 201 Hamburg'] })
+    else if (/India/.test(k)) c.push({ id: 'IN-IEC-PUNE', name: 'Institutional Ethics Committee, Pune site', region: 'IN', country: 'India', sites: ['Site 301 Pune'] }, { id: 'IN-IEC-MUM', name: 'Institutional Ethics Committee, Mumbai site', region: 'IN', country: 'India', sites: ['Site 302 Mumbai'] })
+    else if (/Canada/.test(k)) c.push({ id: 'CA-REB', name: 'Research Ethics Board, Canada', region: 'CA', country: 'Canada', sites: ['Site 401 Toronto'] })
+    else c.push({ id: `${k.slice(0, 2).toUpperCase()}-EC`, name: `Ethics committee, ${k}`, region: k, country: k, sites: [`Site in ${k}`] })
   }
   return c
 }
@@ -68,9 +68,12 @@ export function versionFlags(p: Project): VersionFlag[] {
 }
 
 /** The approved consent versions in the form the CDM Console's consent edit checks expect. */
+const COUNTRY: Record<string, string> = { 'US-IRB': 'United States', 'DE-EC': 'Germany', 'IN-IEC-PUNE': 'India', 'IN-IEC-MUM': 'India', 'CA-REB': 'Canada' }
+export const countryOf = (c: Committee) => c.country ?? COUNTRY[c.id] ?? c.region
 export function cdmConsentFile(p: Project) {
-  const V = p.versions
+  const V = p.versions, com = (id: string) => V.committees.find((c) => c.id === id)
   return { format: 'plain-language-lab/consent-versions', schema: 1, exportedUtc: new Date().toISOString(), study: p.facts.protocolId,
-    versions: V.approvals.filter((a) => a.decision !== 'not approved').map((a) => ({ document: a.type, language: a.language, version: `v${a.version}`, committee: V.committees.find((c) => c.id === a.committee)?.name ?? a.committee, sites: V.committees.find((c) => c.id === a.committee)?.sites ?? [], approved: a.date })),
+    committees: V.committees.map((c) => ({ id: c.id, name: c.name, country: countryOf(c), sites: c.sites })),
+    versions: V.approvals.filter((a) => a.decision !== 'not approved').map((a) => ({ document: a.type, language: a.language, version: `v${a.version}`, committeeId: a.committee, committee: com(a.committee)?.name ?? a.committee, country: com(a.committee) ? countryOf(com(a.committee)!) : '', sites: com(a.committee)?.sites ?? [], approved: a.date })),
     inUse: V.uses.map((u) => ({ site: u.site, document: u.type, language: u.language, version: `v${u.version}`, from: u.from })) }
 }

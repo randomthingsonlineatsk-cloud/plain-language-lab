@@ -14310,6 +14310,80 @@
       "order": 6
      }
     ]
+   },
+   {
+    "id": "MTH_T5",
+    "name": "Table 14.1.1: disposition (randomised participants)",
+    "description": "SCREENED and SCRFAIL (Total only, n); POP (N randomised); TREATED (SAFFL \"Y\"), COMPLETED, DISC: n and pct; DCSREAS by reason (CATEGORY = reason): n and pct. Every reason in every column, zeros included.",
+    "operations": [
+     {
+      "id": "MTH_T5_n",
+      "name": "n",
+      "order": 1
+     },
+     {
+      "id": "MTH_T5_N",
+      "name": "N",
+      "order": 2
+     },
+     {
+      "id": "MTH_T5_pct",
+      "name": "pct",
+      "order": 3
+     }
+    ]
+   },
+   {
+    "id": "MTH_T6",
+    "name": "Table 14.3.5: extent of exposure (safety population)",
+    "description": "Duration of treatment (TRTDURD): n, mean, SD, median, min, max; duration categories for a 16-week study; total exposure in participant-years.",
+    "operations": [
+     {
+      "id": "MTH_T6_N",
+      "name": "N",
+      "order": 1
+     },
+     {
+      "id": "MTH_T6_n",
+      "name": "n",
+      "order": 2
+     },
+     {
+      "id": "MTH_T6_mean",
+      "name": "mean",
+      "order": 3
+     },
+     {
+      "id": "MTH_T6_sd",
+      "name": "sd",
+      "order": 4
+     },
+     {
+      "id": "MTH_T6_median",
+      "name": "median",
+      "order": 5
+     },
+     {
+      "id": "MTH_T6_min",
+      "name": "min",
+      "order": 6
+     },
+     {
+      "id": "MTH_T6_max",
+      "name": "max",
+      "order": 7
+     },
+     {
+      "id": "MTH_T6_pct",
+      "name": "pct",
+      "order": 8
+     },
+     {
+      "id": "MTH_T6_est",
+      "name": "est",
+      "order": 9
+     }
+    ]
    }
   ],
   "analyses": [
@@ -18116,6 +18190,1452 @@
       "rawValue": "0.2733697667"
      }
     ]
+   },
+   {
+    "id": "AN_T5",
+    "name": "Table 14.1.1: disposition (randomised participants)",
+    "analysisSetId": "AS_SAF",
+    "methodId": "MTH_T5",
+    "orderedGroupings": [
+     {
+      "order": 1,
+      "groupingId": "GRP_TRTP",
+      "resultsByGroup": true
+     }
+    ],
+    "results": [
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "SCREENED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "48"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "SCRFAIL",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "3"
+     },
+     {
+      "operationId": "MTH_T5_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "15"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "15"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "13"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "86.66666667"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "2"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "13.33333333"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "6.666666667"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "6.666666667"
+     },
+     {
+      "operationId": "MTH_T5_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "14"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "14"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "14"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "16"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "16"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "15"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "93.75"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "6.25"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "6.25"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T5_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "45"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "45"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "TREATED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "42"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "COMPLETED",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "93.33333333"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "3"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DISC",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "6.666666667"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "2.222222222"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "2.222222222"
+     },
+     {
+      "operationId": "MTH_T5_n",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T5_pct",
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTP",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "2.222222222"
+     }
+    ]
+   },
+   {
+    "id": "AN_T6",
+    "name": "Table 14.3.5: extent of exposure (safety population)",
+    "analysisSetId": "AS_SAF",
+    "methodId": "MTH_T6",
+    "orderedGroupings": [
+     {
+      "order": 1,
+      "groupingId": "GRP_TRTA",
+      "resultsByGroup": true
+     }
+    ],
+    "results": [
+     {
+      "operationId": "MTH_T6_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "15"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "15"
+     },
+     {
+      "operationId": "MTH_T6_mean",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "102.2"
+     },
+     {
+      "operationId": "MTH_T6_sd",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "25.84624869"
+     },
+     {
+      "operationId": "MTH_T6_median",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "111"
+     },
+     {
+      "operationId": "MTH_T6_min",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "26"
+     },
+     {
+      "operationId": "MTH_T6_max",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "114"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "6.666666667"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "6.666666667"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "13"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "86.66666667"
+     },
+     {
+      "operationId": "MTH_T6_est",
+      "analysis": "PYEARS",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "4.197125257"
+     },
+     {
+      "operationId": "MTH_T6_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "14"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "14"
+     },
+     {
+      "operationId": "MTH_T6_mean",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "111.5714286"
+     },
+     {
+      "operationId": "MTH_T6_sd",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "1.398586414"
+     },
+     {
+      "operationId": "MTH_T6_median",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "112"
+     },
+     {
+      "operationId": "MTH_T6_min",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "110"
+     },
+     {
+      "operationId": "MTH_T6_max",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "114"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "14"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T6_est",
+      "analysis": "PYEARS",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "rawValue": "4.27652293"
+     },
+     {
+      "operationId": "MTH_T6_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "16"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "16"
+     },
+     {
+      "operationId": "MTH_T6_mean",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "110.9375"
+     },
+     {
+      "operationId": "MTH_T6_sd",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "6.757403347"
+     },
+     {
+      "operationId": "MTH_T6_median",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "113"
+     },
+     {
+      "operationId": "MTH_T6_min",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "86"
+     },
+     {
+      "operationId": "MTH_T6_max",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "114"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "16"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T6_est",
+      "analysis": "PYEARS",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "rawValue": "4.859685147"
+     },
+     {
+      "operationId": "MTH_T6_N",
+      "analysis": "POP",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "45"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "45"
+     },
+     {
+      "operationId": "MTH_T6_mean",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "108.2222222"
+     },
+     {
+      "operationId": "MTH_T6_sd",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "15.72619252"
+     },
+     {
+      "operationId": "MTH_T6_median",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "112"
+     },
+     {
+      "operationId": "MTH_T6_min",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "26"
+     },
+     {
+      "operationId": "MTH_T6_max",
+      "analysis": "DUR",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "114"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "2.222222222"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "2.222222222"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "43"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "95.55555556"
+     },
+     {
+      "operationId": "MTH_T6_est",
+      "analysis": "PYEARS",
+      "category": null,
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "13.33333333"
+     }
+    ]
    }
   ],
   "outputs": [
@@ -18169,6 +19689,32 @@
     ],
     "analysisIds": [
      "AN_T4"
+    ]
+   },
+   {
+    "id": "OUT_T5",
+    "name": "Table 14.1.1",
+    "displays": [
+     {
+      "order": 1,
+      "displayTitle": "Table 14.1.1: disposition (randomised participants)"
+     }
+    ],
+    "analysisIds": [
+     "AN_T5"
+    ]
+   },
+   {
+    "id": "OUT_T6",
+    "name": "Table 14.3.5",
+    "displays": [
+     {
+      "order": 1,
+      "displayTitle": "Table 14.3.5: extent of exposure (safety population)"
+     }
+    ],
+    "analysisIds": [
+     "AN_T6"
     ]
    }
   ],

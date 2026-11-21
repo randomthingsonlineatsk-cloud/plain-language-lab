@@ -13611,7 +13611,7 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "62"
+      "rawValue": "76"
      },
      {
       "operationId": "MTH_T11_n",
@@ -13767,7 +13767,7 @@
         "groupName": "GLV-12 5 mg"
        }
       ],
-      "rawValue": "0.5819097413"
+      "rawValue": "0.6083992961"
      },
      {
       "operationId": "MTH_T11_lcl",
@@ -13779,7 +13779,7 @@
         "groupName": "GLV-12 5 mg"
        }
       ],
-      "rawValue": "0.310120531"
+      "rawValue": "0.3244647591"
      },
      {
       "operationId": "MTH_T11_ucl",
@@ -13791,7 +13791,7 @@
         "groupName": "GLV-12 5 mg"
        }
       ],
-      "rawValue": "1.091894645"
+      "rawValue": "1.140800944"
      },
      {
       "operationId": "MTH_T11_p",
@@ -13803,7 +13803,7 @@
         "groupName": "GLV-12 5 mg"
        }
       ],
-      "rawValue": "0.09176171971"
+      "rawValue": "0.1213178289"
      },
      {
       "operationId": "MTH_T11_hr",
@@ -13815,7 +13815,7 @@
         "groupName": "GLV-12 10 mg"
        }
       ],
-      "rawValue": "0.8247357064"
+      "rawValue": "0.8632870896"
      },
      {
       "operationId": "MTH_T11_lcl",
@@ -13827,7 +13827,7 @@
         "groupName": "GLV-12 10 mg"
        }
       ],
-      "rawValue": "0.4553918475"
+      "rawValue": "0.4771232625"
      },
      {
       "operationId": "MTH_T11_ucl",
@@ -13839,7 +13839,7 @@
         "groupName": "GLV-12 10 mg"
        }
       ],
-      "rawValue": "1.493634524"
+      "rawValue": "1.561995941"
      },
      {
       "operationId": "MTH_T11_p",
@@ -13851,7 +13851,7 @@
         "groupName": "GLV-12 10 mg"
        }
       ],
-      "rawValue": "0.5248350706"
+      "rawValue": "0.627032043"
      },
      {
       "operationId": "MTH_T11_chisq",
@@ -13863,7 +13863,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "2.956742454"
+      "rawValue": "2.537694196"
      },
      {
       "operationId": "MTH_T11_p",
@@ -13875,7 +13875,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "0.2280087606"
+      "rawValue": "0.2811555799"
      }
     ]
    }

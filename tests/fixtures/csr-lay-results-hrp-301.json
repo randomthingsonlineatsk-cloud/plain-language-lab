@@ -1,0 +1,4676 @@
+{
+ "format": "csr-studio/lay-results",
+ "schema": 1,
+ "exportedUtc": "2026-11-22T00:00:00Z",
+ "study": "HRP-301",
+ "title": "VERDANT-1: a randomised, double-blind, placebo-controlled phase 3 study of lumiravostat (Ostrevia) 10 mg and 25 mg once daily for 16 weeks in adults with moderate to severe chronic hand eczema",
+ "csr": {
+  "project": "HRP-301 CSR",
+  "version": 1,
+  "stage": "shell",
+  "approved": false,
+  "outputs": "TLF Programming Lab reference programs"
+ },
+ "tables": [
+  {
+   "id": "T1",
+   "table": "14.1.2",
+   "title": "Table 14.1.2: demographics (safety population)"
+  },
+  {
+   "id": "T2",
+   "table": "14.3.1",
+   "title": "Table 14.3.1: treatment-emergent adverse events by system class and preferred term"
+  },
+  {
+   "id": "T3",
+   "table": "14.2.1",
+   "title": "Table 14.2.1: IGA-CHE treatment success at Week 16 (primary endpoint)"
+  },
+  {
+   "id": "T4",
+   "table": "14.2.2",
+   "title": "Table 14.2.2: HECSI-75 at Week 16 (key secondary endpoint)"
+  },
+  {
+   "id": "T5",
+   "table": "14.1.1",
+   "title": "Table 14.1.1: disposition (randomised participants)"
+  },
+  {
+   "id": "T6",
+   "table": "14.3.5",
+   "title": "Table 14.3.5: extent of exposure (safety population)"
+  }
+ ],
+ "reportingEvent": {
+  "id": "RE_HRP-301",
+  "study": "HRP-301",
+  "analyses": [
+   {
+    "id": "T1",
+    "name": "Table 14.1.2: demographics (safety population)",
+    "results": [
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_N",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_mean",
+      "rawValue": "42.33333333"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_sd",
+      "rawValue": "13.63643579"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_median",
+      "rawValue": "43"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_min",
+      "rawValue": "22"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_max",
+      "rawValue": "64"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "9"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "60"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "6"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "40"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "7"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "46.66666667"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "6"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "40"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_N",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_mean",
+      "rawValue": "47.21428571"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_sd",
+      "rawValue": "13.23270175"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_median",
+      "rawValue": "50.5"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_min",
+      "rawValue": "23"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_max",
+      "rawValue": "70"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "13"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "92.85714286"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "7.142857143"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "8"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "57.14285714"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "6"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "42.85714286"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "6"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "42.85714286"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "7.142857143"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "7"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "50"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_N",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_mean",
+      "rawValue": "45.1875"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_sd",
+      "rawValue": "15.38058842"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_median",
+      "rawValue": "51"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_min",
+      "rawValue": "24"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_max",
+      "rawValue": "66"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "87.5"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "12.5"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "8"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "50"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "8"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "50"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "18.75"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "5"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "31.25"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "7"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "43.75"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_N",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_mean",
+      "rawValue": "44.86666667"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_sd",
+      "rawValue": "13.98310669"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_median",
+      "rawValue": "50"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_min",
+      "rawValue": "22"
+     },
+     {
+      "analysis": "AGE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_max",
+      "rawValue": "70"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "42"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": "<65",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "93.33333333"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "AGEGR1",
+      "category": ">=65",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "25"
+     },
+     {
+      "analysis": "SEX",
+      "category": "F",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "55.55555556"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "20"
+     },
+     {
+      "analysis": "SEX",
+      "category": "M",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "44.44444444"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "RACE",
+      "category": "AMERICAN INDIAN OR ALASKA NATIVE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "18"
+     },
+     {
+      "analysis": "RACE",
+      "category": "ASIAN",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "40"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "RACE",
+      "category": "BLACK OR AFRICAN AMERICAN",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "RACE",
+      "category": "NOT REPORTED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_n",
+      "rawValue": "20"
+     },
+     {
+      "analysis": "RACE",
+      "category": "WHITE",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T1_pct",
+      "rawValue": "44.44444444"
+     }
+    ]
+   },
+   {
+    "id": "T2",
+    "name": "Table 14.3.1: treatment-emergent adverse events by system class and preferred term",
+    "results": [
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_N",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "8"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "53.33333333"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "26.66666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "26.66666667"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "5"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "33.33333333"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "26.66666667"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_N",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "8"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "57.14285714"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "28.57142857"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "28.57142857"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "7.142857143"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "7.142857143"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "5"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "35.71428571"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "7.142857143"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "7.142857143"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "28.57142857"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "14.28571429"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "14.28571429"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_N",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "10"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "62.5"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "18.75"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "18.75"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "12.5"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "12.5"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "6"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "37.5"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "18.75"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "18.75"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "12.5"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "12.5"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_N",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "26"
+     },
+     {
+      "analysis": "ANY",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "57.77777778"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "11"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Brain and nerves",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "24.44444444"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "11"
+     },
+     {
+      "analysis": "PT",
+      "category": "Brain and nerves | Head pain",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "24.44444444"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Digestive system",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "PT",
+      "category": "Digestive system | Nausea",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Infections",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "35.55555556"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Cold sore",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Folliculitis",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Herpes zoster",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "11"
+     },
+     {
+      "analysis": "PT",
+      "category": "Infections | Upper respiratory tract infection",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "24.44444444"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Muscles, bones and joints",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Muscles, bones and joints | Back pain",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Skin",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Acne",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "PT",
+      "category": "Skin | Hand eczema",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "4.444444444"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "SOC",
+      "category": "Test results",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "PT",
+      "category": "Test results | Liver enzymes raised",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T2_pct",
+      "rawValue": "2.222222222"
+     }
+    ]
+   },
+   {
+    "id": "T3",
+    "name": "Table 14.2.1: IGA-CHE treatment success at Week 16 (primary endpoint)",
+    "results": [
+     {
+      "analysis": "N",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T3_pct",
+      "rawValue": "20"
+     },
+     {
+      "analysis": "MISS",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "N",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_pct",
+      "rawValue": "21.42857143"
+     },
+     {
+      "analysis": "MISS",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_est",
+      "rawValue": "1.428571429"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_lcl",
+      "rawValue": "-28.09664879"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_ucl",
+      "rawValue": "30.95379165"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T3_p",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "N",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "5"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_pct",
+      "rawValue": "31.25"
+     },
+     {
+      "analysis": "MISS",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_est",
+      "rawValue": "11.25"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_lcl",
+      "rawValue": "-19.17328868"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_ucl",
+      "rawValue": "41.67328868"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T3_p",
+      "rawValue": "0.6850821901"
+     }
+    ]
+   },
+   {
+    "id": "T4",
+    "name": "Table 14.2.2: HECSI-75 at Week 16 (key secondary endpoint)",
+    "results": [
+     {
+      "analysis": "N",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "4"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T4_pct",
+      "rawValue": "26.66666667"
+     },
+     {
+      "analysis": "MISS",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "N",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "5"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_pct",
+      "rawValue": "35.71428571"
+     },
+     {
+      "analysis": "MISS",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_est",
+      "rawValue": "9.047619048"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_lcl",
+      "rawValue": "-24.57959102"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_ucl",
+      "rawValue": "42.67482911"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T4_p",
+      "rawValue": "0.699850075"
+     },
+     {
+      "analysis": "N",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "8"
+     },
+     {
+      "analysis": "RESP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_pct",
+      "rawValue": "50"
+     },
+     {
+      "analysis": "MISS",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_est",
+      "rawValue": "23.33333333"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_lcl",
+      "rawValue": "-9.848594729"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_ucl",
+      "rawValue": "56.5152614"
+     },
+     {
+      "analysis": "DIFF",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T4_p",
+      "rawValue": "0.2733697667"
+     }
+    ]
+   },
+   {
+    "id": "T5",
+    "name": "Table 14.1.1: disposition (randomised participants)",
+    "results": [
+     {
+      "analysis": "SCREENED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "48"
+     },
+     {
+      "analysis": "SCRFAIL",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_N",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "13"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "86.66666667"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "2"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "13.33333333"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_N",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_N",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "93.75"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "6.25"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_N",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "TREATED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "42"
+     },
+     {
+      "analysis": "COMPLETED",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "93.33333333"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "3"
+     },
+     {
+      "analysis": "DISC",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "ADVERSE EVENT",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "LOST TO FOLLOW-UP",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DCSREAS",
+      "category": "WITHDRAWAL BY SUBJECT",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T5_pct",
+      "rawValue": "2.222222222"
+     }
+    ]
+   },
+   {
+    "id": "T6",
+    "name": "Table 14.3.5: extent of exposure (safety population)",
+    "results": [
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_N",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "15"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_mean",
+      "rawValue": "102.2"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_sd",
+      "rawValue": "25.84624869"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_median",
+      "rawValue": "111"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_min",
+      "rawValue": "26"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_max",
+      "rawValue": "114"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "6.666666667"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "13"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "86.66666667"
+     },
+     {
+      "analysis": "PYEARS",
+      "resultGroups": [
+       {
+        "groupName": "Placebo"
+       }
+      ],
+      "operationId": "T6_est",
+      "rawValue": "4.197125257"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_N",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_mean",
+      "rawValue": "111.5714286"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_sd",
+      "rawValue": "1.398586414"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_median",
+      "rawValue": "112"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_min",
+      "rawValue": "110"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_max",
+      "rawValue": "114"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "14"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "PYEARS",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 10 mg"
+       }
+      ],
+      "operationId": "T6_est",
+      "rawValue": "4.27652293"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_N",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_mean",
+      "rawValue": "110.9375"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_sd",
+      "rawValue": "6.757403347"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_median",
+      "rawValue": "113"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_min",
+      "rawValue": "86"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_max",
+      "rawValue": "114"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "16"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "100"
+     },
+     {
+      "analysis": "PYEARS",
+      "resultGroups": [
+       {
+        "groupName": "Lumiravostat 25 mg"
+       }
+      ],
+      "operationId": "T6_est",
+      "rawValue": "4.859685147"
+     },
+     {
+      "analysis": "POP",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_N",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "45"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_mean",
+      "rawValue": "108.2222222"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_sd",
+      "rawValue": "15.72619252"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_median",
+      "rawValue": "112"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_min",
+      "rawValue": "26"
+     },
+     {
+      "analysis": "DUR",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_max",
+      "rawValue": "114"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "1-28 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "1"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "29-56 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "2.222222222"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": "57-84 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "0"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_n",
+      "rawValue": "43"
+     },
+     {
+      "analysis": "DURCAT",
+      "category": ">84 days",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_pct",
+      "rawValue": "95.55555556"
+     },
+     {
+      "analysis": "PYEARS",
+      "resultGroups": [
+       {
+        "groupName": "Total"
+       }
+      ],
+      "operationId": "T6_est",
+      "rawValue": "13.33333333"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -53,8 +53,10 @@ Training only. Every study, product, sponsor and participant is fictional. Not a
     participants of mixed literacy and numeracy; an answer passes at 90% found and 90% of those
     understood (16 of 20 over two rounds on the same text). Results repeat for the same text.
 13. **Lay summary of results** (EU CTR Annex V, ten elements) drafted from the study and the TLF
-    Programming Lab’s analysis results (its ARS JSON download): natural frequencies, differences in
-    words, honest uncertainty, no p-values; checks PL-L01 to PL-L10.
+    Programming Lab’s analysis results (its ARS JSON download), or from the CSR & Narrative Studio’s
+    lay results (`csr-studio/lay-results`: the same results as the clinical study report, with the
+    CSR tables they come from): natural frequencies, differences in words, honest uncertainty, no
+    p-values; checks PL-L01 to PL-L10.
 14. **Missions PL6 to PL9**: bring the Ostrevia leaflet to its reading level; user-test it and pass;
     write the VERDANT-1 lay summary from its results; fix the numbers in a misleading summary.
 

@@ -134,3 +134,18 @@ describe('GLV-12-301 lay summary', () => {
     void laySections
   })
 })
+
+import { readFileSync as _read } from 'node:fs'
+import { readResultsFile } from '../src/domain/csrresults'
+describe('lay results from the CSR & Narrative Studio', () => {
+  test('the Studio’s lay results file reads like the ARS file it carries', () => {
+    const text = _read(new URL('./fixtures/csr-lay-results-hrp-301.json', import.meta.url), 'utf8')
+    const r = readResultsFile(text, 'csr-lay.json')
+    expect(r.fromCsr).toBe(true)
+    expect(r.source).toMatch(/^CSR & Narrative Studio: HRP-301 clinical study report, version 1, not yet approved/)
+    expect(r.results.study).toBe('HRP-301')
+    expect(r.results.primary?.diffs.find((x) => x.group === 'Lumiravostat 25 mg')?.est).toBeCloseTo(11.25, 1)
+    expect(r.results.ae?.top.length).toBe(5)
+    expect(() => readResultsFile('{"format":"csr-studio/lay-results","schema":2}', 'x.json')).toThrow(/newer/)
+  })
+})

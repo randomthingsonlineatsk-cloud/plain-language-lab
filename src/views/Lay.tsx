@@ -3,7 +3,8 @@
 import { useRef } from 'react'
 import { useStore } from '../state'
 import { laySections, textOf } from '../domain/project'
-import { layChecks, readReportingEvent, GAP_TEXT, type LayResults } from '../domain/laytools'
+import { layChecks, GAP_TEXT, type LayResults } from '../domain/laytools'
+import { readResultsFile } from '../domain/csrresults'
 import { numberChecks } from '../domain/risk'
 import { analyze } from '../domain/analyze'
 import { Btn, Panel, Pill } from './ui'
@@ -37,8 +38,8 @@ export default function Lay() {
           <textarea aria-label={s.heading} className="w-full min-h-24 rounded-md border border-lab-line bg-lab-panel-strong p-2 text-sm mt-1" value={s.text} onChange={(e) => act((x) => { x.lay.edits[s.id] = e.target.value })} /></div> })}</div>
       </Panel>
       <div className="space-y-3">
-        <Panel title="Results" sub={p!.lay.results ? `From: ${p!.lay.source || 'an analysis results file'}. Training data, not real results.` : 'No results yet. In the TLF Programming Lab, Submission page, download “Analysis results (ARS JSON)”, then open it here.'} right={<Btn tone="grey" onClick={() => file.current?.click()}>Open results…</Btn>}>
-          <input ref={file} type="file" accept=".json" className="hidden" aria-label="Open an analysis results file" onChange={async (e) => { const f = e.target.files?.[0]; e.target.value = ''; if (!f) return; try { const r = readReportingEvent(JSON.parse(await f.text())); act((x) => { x.lay.results = r; x.lay.source = f.name }) } catch (err) { setError((err as Error).message) } }} />
+        <Panel title="Results" sub={p!.lay.results ? `From: ${p!.lay.source || 'an analysis results file'}. Training data, not real results.` : 'No results yet. Open the analysis results (ARS JSON) from the TLF Programming Lab’s Submission page, or the lay results file from the CSR & Narrative Studio’s Export page.'} right={<Btn tone="grey" onClick={() => file.current?.click()}>Open results…</Btn>}>
+          <input ref={file} type="file" accept=".json" className="hidden" aria-label="Open an analysis results file" onChange={async (e) => { const f = e.target.files?.[0]; e.target.value = ''; if (!f) return; try { const r = readResultsFile(await f.text(), f.name); act((x) => { x.lay.results = r.results; x.lay.source = r.source }) } catch (err) { setError((err as Error).message) } }} />
           {p!.lay.results && <ResultsTable r={p!.lay.results} />}
         </Panel>
         <Panel title="Annex V elements and tone" right={<Pill tone={checks.every((c) => c.ok) ? 'green' : 'amber'}>{`${checks.filter((c) => c.ok).length}/${checks.length}`}</Pill>}>

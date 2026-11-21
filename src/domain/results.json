@@ -3353,6 +3353,30 @@
      {
       "operationId": "MTH_T2_n",
       "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
       "category": "Brain and nerves | Head pain",
       "resultGroups": [
        {
@@ -3397,6 +3421,30 @@
        }
       ],
       "rawValue": "11.11111111"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T2_n",
@@ -3576,7 +3624,7 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "5"
+      "rawValue": "6"
      },
      {
       "operationId": "MTH_T2_pct",
@@ -3588,7 +3636,55 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "18.51851852"
+      "rawValue": "22.22222222"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "3.703703704"
      },
      {
       "operationId": "MTH_T2_n",
@@ -3613,6 +3709,102 @@
        }
       ],
       "rawValue": "18.51851852"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T2_n",
@@ -3773,6 +3965,30 @@
      {
       "operationId": "MTH_T2_n",
       "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
       "category": "Brain and nerves | Head pain",
       "resultGroups": [
        {
@@ -3817,6 +4033,30 @@
        }
       ],
       "rawValue": "22.22222222"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T2_n",
@@ -3996,7 +4236,7 @@
         "groupName": "GLV-12 5 mg"
        }
       ],
-      "rawValue": "3"
+      "rawValue": "4"
      },
      {
       "operationId": "MTH_T2_pct",
@@ -4008,7 +4248,55 @@
         "groupName": "GLV-12 5 mg"
        }
       ],
-      "rawValue": "11.11111111"
+      "rawValue": "14.81481481"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4033,6 +4321,102 @@
        }
       ],
       "rawValue": "11.11111111"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4176,7 +4560,7 @@
         "groupName": "GLV-12 10 mg"
        }
       ],
-      "rawValue": "11"
+      "rawValue": "12"
      },
      {
       "operationId": "MTH_T2_pct",
@@ -4188,7 +4572,31 @@
         "groupName": "GLV-12 10 mg"
        }
       ],
-      "rawValue": "42.30769231"
+      "rawValue": "46.15384615"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "3.846153846"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4237,6 +4645,30 @@
        }
       ],
       "rawValue": "26.92307692"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "3.846153846"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4433,6 +4865,54 @@
      {
       "operationId": "MTH_T2_n",
       "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
       "category": "Infections | Upper respiratory tract infection",
       "resultGroups": [
        {
@@ -4453,6 +4933,102 @@
        }
       ],
       "rawValue": "3.846153846"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4596,7 +5172,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "26"
+      "rawValue": "27"
      },
      {
       "operationId": "MTH_T2_pct",
@@ -4608,7 +5184,31 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "32.5"
+      "rawValue": "33.75"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Fainting",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4657,6 +5257,30 @@
        }
       ],
       "rawValue": "20"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Brain and nerves | Transient brain ischaemia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4836,7 +5460,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "9"
+      "rawValue": "11"
      },
      {
       "operationId": "MTH_T2_pct",
@@ -4848,7 +5472,55 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "11.25"
+      "rawValue": "13.75"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Cellulitis",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Infections | Pneumonia",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
      },
      {
       "operationId": "MTH_T2_n",
@@ -4873,6 +5545,102 @@
        }
       ],
       "rawValue": "11.25"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Injuries and accidents",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Injuries and accidents | Wrist fracture",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "SOC",
+      "category": "Kidneys and urinary tract",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T2_n",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T2_pct",
+      "analysis": "PT",
+      "category": "Kidneys and urinary tract | Kidney stone",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
      },
      {
       "operationId": "MTH_T2_n",
@@ -9770,6 +10538,54 @@
      {
       "operationId": "MTH_T8_n",
       "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
       "category": "Anilide class",
       "resultGroups": [
        {
@@ -9777,7 +10593,7 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "1"
+      "rawValue": "2"
      },
      {
       "operationId": "MTH_T8_pct",
@@ -9789,7 +10605,7 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "3.703703704"
+      "rawValue": "7.407407407"
      },
      {
       "operationId": "MTH_T8_n",
@@ -9801,7 +10617,7 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "1"
+      "rawValue": "2"
      },
      {
       "operationId": "MTH_T8_pct",
@@ -9813,7 +10629,7 @@
         "groupName": "Placebo"
        }
       ],
-      "rawValue": "3.703703704"
+      "rawValue": "7.407407407"
      },
      {
       "operationId": "MTH_T8_n",
@@ -9862,6 +10678,198 @@
        }
       ],
       "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T8_n",
@@ -9912,6 +10920,54 @@
       "rawValue": "11.11111111"
      },
      {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
       "operationId": "MTH_T8_N",
       "analysis": "POP",
       "category": null,
@@ -9946,6 +11002,54 @@
        }
       ],
       "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
      },
      {
       "operationId": "MTH_T8_n",
@@ -10046,6 +11150,198 @@
      {
       "operationId": "MTH_T8_n",
       "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "3.703703704"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
       "category": "Propionic acid class",
       "resultGroups": [
        {
@@ -10092,6 +11388,54 @@
       "rawValue": "18.51851852"
      },
      {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
       "operationId": "MTH_T8_N",
       "analysis": "POP",
       "category": null,
@@ -10126,6 +11470,54 @@
        }
       ],
       "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
      },
      {
       "operationId": "MTH_T8_n",
@@ -10226,6 +11618,198 @@
      {
       "operationId": "MTH_T8_n",
       "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "3.846153846"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "3.846153846"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
       "category": "Propionic acid class",
       "resultGroups": [
        {
@@ -10263,6 +11847,54 @@
       "operationId": "MTH_T8_pct",
       "analysis": "DRUG",
       "category": "Propionic acid class | Ibuprofen",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "3.846153846"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "3.846153846"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
       "resultGroups": [
        {
         "groupingId": "GRP_TRTA",
@@ -10310,6 +11942,54 @@
      {
       "operationId": "MTH_T8_n",
       "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Alpha-adrenoreceptor blockers (urology)",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Alpha-adrenoreceptor blockers (urology) | Tamsulosin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
       "category": "Anilide class",
       "resultGroups": [
        {
@@ -10317,7 +11997,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "6"
+      "rawValue": "7"
      },
      {
       "operationId": "MTH_T8_pct",
@@ -10329,7 +12009,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "7.5"
+      "rawValue": "8.75"
      },
      {
       "operationId": "MTH_T8_n",
@@ -10341,7 +12021,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "6"
+      "rawValue": "7"
      },
      {
       "operationId": "MTH_T8_pct",
@@ -10353,7 +12033,7 @@
         "groupName": "Total"
        }
       ],
-      "rawValue": "7.5"
+      "rawValue": "8.75"
      },
      {
       "operationId": "MTH_T8_n",
@@ -10406,6 +12086,198 @@
      {
       "operationId": "MTH_T8_n",
       "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Extended-spectrum penicillins",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Extended-spectrum penicillins | Amoxicillin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Macrolides",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Macrolides | Clarithromycin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Other opioids",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Other opioids | Tramadol",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Platelet aggregation blockers",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Platelet aggregation blockers | Clopidogrel",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
       "category": "Propionic acid class",
       "resultGroups": [
        {
@@ -10450,6 +12322,54 @@
        }
       ],
       "rawValue": "11.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "CLASS",
+      "category": "Statin class",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
+     },
+     {
+      "operationId": "MTH_T8_n",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1"
+     },
+     {
+      "operationId": "MTH_T8_pct",
+      "analysis": "DRUG",
+      "category": "Statin class | Atorvastatin",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Total"
+       }
+      ],
+      "rawValue": "1.25"
      }
     ]
    },

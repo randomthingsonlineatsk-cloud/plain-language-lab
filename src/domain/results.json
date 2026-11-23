@@ -7124,6 +7124,690 @@
      {
       "operationId": "MTH_T6_n",
       "analysis": "N",
+      "category": "BILI",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "25"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "25"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "Placebo"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "N",
+      "category": "BILI",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "25"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "25"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 5 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "N",
+      "category": "BILI",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "23"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | LOW | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "23"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "100"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | NORMAL | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | LOW",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | NORMAL",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_pct",
+      "analysis": "SHIFT",
+      "category": "BILI | HIGH | HIGH",
+      "resultGroups": [
+       {
+        "groupingId": "GRP_TRTA",
+        "groupName": "GLV-12 10 mg"
+       }
+      ],
+      "rawValue": "0"
+     },
+     {
+      "operationId": "MTH_T6_n",
+      "analysis": "N",
       "category": "CHOL",
       "resultGroups": [
        {

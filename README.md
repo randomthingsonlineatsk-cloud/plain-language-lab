@@ -114,7 +114,12 @@ the first visit; press `?` for keyboard shortcuts.
     languages, which have no validated readability formula. The practice sentences were written
     for this app and are not validated translations.
 27. **Publication summary**: a plain-language summary of a (fictional) journal article with a
-    three-panel graphical abstract and twelve checks.
+    three-panel graphical abstract and twelve checks. **Open an article from the Reporting
+    Guideline Navigator** replaces the built-in article with the one that app gives (the
+    VERDANT-1 first-cohort paper); the checks then use its funder and citation, and **Publication
+    summary for the Reporting Guideline Navigator** downloads the finished summary
+    (`plain-language-lab/publication-summary`: citation, sections, panels, checks, words, grade)
+    for that app's mission RG16.
 28. **Language access**: consent languages and formats per site from the Protocol Builder’s
     enrolment plan and fictional site profiles, with a stated planning rule and the US short-form
     route (21 CFR 50.27(b)(2)).

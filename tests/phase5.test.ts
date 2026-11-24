@@ -5,7 +5,7 @@ import { CDC_ITEMS, PEMAT_ITEMS, PL13_KEY, cdcScore, pematScores, hints, type Ra
 import { panelStatus, panelComments, PERSONAS } from '../src/domain/panel'
 import { easyReadChecks, audioScriptFrom, audioChecks } from '../src/domain/easyread'
 import { glossaryChecks, PRACTICE, PL16_SEGMENTS, descriptive, asciiDigits, numbersIn } from '../src/domain/translation'
-import { plsChecks } from '../src/domain/pls'
+import { plsChecks, readRgnSource, publicationSummary } from '../src/domain/pls'
 import { requiredPlan, planIssues, siteTargets } from '../src/domain/access'
 import { CONSENT_EDITS } from './journey.fixture'
 
@@ -147,5 +147,27 @@ describe('lay results from the CSR & Narrative Studio', () => {
     expect(r.results.primary?.diffs.find((x) => x.group === 'Lumiravostat 25 mg')?.est).toBeCloseTo(11.25, 1)
     expect(r.results.ae?.top.length).toBe(5)
     expect(() => readResultsFile('{"format":"csr-studio/lay-results","schema":2}', 'x.json')).toThrow(/newer/)
+  })
+})
+
+describe('publication summary for the Reporting Guideline Navigator', () => {
+  const src = { format: 'reporting-guideline-navigator/pls-source', schema: 1, study: 'HRP-301', citation: 'Rao A, Iyer S, Keller M, Okafor D, Brandt H. Lumiravostat for moderate to severe chronic hand eczema: the first 45 participants of VERDANT-1. Fennick J Dermatol 2027 (fictional). doi:10.0000/fjd.2027.0045 (fictional).', abstract: 'Results: 45 participants were randomised.', funder: 'Halcyon Ridge Pharmaceuticals' }
+  test('opens the article file and refuses other files', () => {
+    expect(readRgnSource(src).citation).toBe(src.citation)
+    expect(() => readRgnSource({ format: 'x' })).toThrow(/not an article file/)
+    expect(() => readRgnSource({ ...src, funder: '' })).toThrow(/funder/)
+  })
+  test('the summary of the opened article passes and exports with its citation', () => {
+    const d = { source: readRgnSource(src), title: 'A new tablet for long-lasting hand eczema: early results', panels: { question: 'Does a new tablet help hand eczema that creams have not cleared?', did: '45 adults took the new tablet or a dummy tablet for 16 weeks.', found: 'Skin cleared in about the same number of people on the tablet and the dummy tablet.' }, sections: {
+      about: 'This is a summary of a research article about lumiravostat, a new tablet for hand eczema. Hand eczema makes the skin on the hands red, dry and itchy. In these people, creams had not cleared it.',
+      did: 'The researchers asked the first 45 adults in the study to take part. By chance, each person got lumiravostat 25 mg, lumiravostat 10 mg or a dummy tablet with no medicine in it, for 16 weeks. Nobody knew who got which tablet.',
+      found: 'After 16 weeks, the skin was clear or almost clear in 3 out of 14 people on 10 mg, 5 out of 16 people on 25 mg and 3 out of 15 people on the dummy tablet. Some people in each group had a side effect or other health problem. Nobody died.',
+      mean: 'In these first people, the tablet did not clearly help more than the dummy tablet. This was a small, early part of one study. More research is needed, and the study goes on.',
+      who: 'Halcyon Ridge Pharmaceuticals paid for the study. Some of the writers work for the company.',
+      more: 'Rao A and others, Fennick Journal of Dermatology, 2027, doi:10.0000/fjd.2027.0045.' } }
+    expect(plsChecks(d).filter((c) => !c.ok).map((c) => `${c.id} ${c.why}`)).toEqual([])
+    const out = publicationSummary(d)
+    expect(out).toMatchObject({ format: 'plain-language-lab/publication-summary', study: 'HRP-301', citation: src.citation, checks: { total: 12, failed: [] } })
+    expect(out.words).toBeLessThanOrEqual(300); expect(out.grade).toBeLessThanOrEqual(8)
   })
 })
